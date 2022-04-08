@@ -1,0 +1,18 @@
+/*Custom font START*/
+@font-face { 
+    font-family: 'IncognitoInc';
+    src: url('../src/font/IncognitoInc.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Custom font END*/
+
+body{
+    background-color: #24161e;
+    font-family: IncognitoInc;
+    color: #dff6f5;
+}
+
+.active {
+  background-color: rgb(141, 0, 49);
+}
