@@ -16,7 +16,7 @@ h1{
     color: #dff6f5;
 }
 
-img {
+.image_big_content {
     max-width:100%;
     height: auto;
     width: auto\9;
@@ -46,4 +46,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.active {
+  background-color: #cfa430;
 }
