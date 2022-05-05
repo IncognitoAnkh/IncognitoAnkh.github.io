@@ -1,17 +1,23 @@
-/*Declaraciones*/
-
-.mini_wrapper > h2{
-  margin: 1em;
+.banner {
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.25), 
+      rgba(0,0,0,0.25)
+      ),
+      radial-gradient(
+      circle at top left,
+      transparent 85%,
+      rgba(255, 255, 255, .25)
+      ),
+      radial-gradient(
+        circle at bottom right,
+        transparent 85%,
+        rgba(255, 255, 255, .25)
+      ),
+      url("/src/img/banner1.png");
+  background-attachment: fixed;
+  /* background-size: cover; */
+  background-position: center;
+  background-position-y: -115%;
+  background-repeat:repeat-x;
 }
-
-/* @media screen and (max-width: 767px) {
-  #w1{  
-    order: 2;
-  }  
-  #w2{  
-    order: 1;
-  }  
-  #w3{  
-    order: 3;
-  }  
-} */
