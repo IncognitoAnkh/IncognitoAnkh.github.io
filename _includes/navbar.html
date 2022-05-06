@@ -1,9 +1,9 @@
 <header class="navbar">
-	<a class="logo" href="{{site.baseurl}}/index/">
+	<a class="logo" href="{{site.baseurl}}">
 		<img class="img_logo" src="{{site.baseurl}}/src/img/IncognitoAnkhLogo.png"/>
 	</a>
 	<nav class="navbar_buttons">
-		<a class="{% if page.url == '/index/' %}active{% endif %}" href="{{site.baseurl}}/index/">Home</a>
+		<a class="{% if page.url == '{{site.baseurl}}' %}active{% endif %}" href="{{site.baseurl}}">Home</a>
 		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{site.baseurl}}/pixelart/">PixelArt</a>
 		<a class="{% if page.url == '/media/' %}active{% endif %}" href="{{site.baseurl}}/media/">SocialMedia</a>
 		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{site.baseurl}}/IncognitoInc/">IncognitoInc</a>
