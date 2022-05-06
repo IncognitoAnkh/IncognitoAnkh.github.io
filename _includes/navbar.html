@@ -1,13 +1,13 @@
 <header class="navbar">
-	<a class="logo" href="index.html">
-		<img class="img_logo" src="src/img/IncognitoAnkhLogo.png"/>
+	<a class="logo" href="{{site.baseurl}}/index/">
+		<img class="img_logo" src="{{site.baseurl}}/src/img/IncognitoAnkhLogo.png"/>
 	</a>
 	<nav class="navbar_buttons">
-		<a href="index.html">Home</a>
-		<a class="active" href="pixelart.html">PixelArt</a>
-		<a href="media.html">SocialMedia</a>
-		<a href="IncognitoInc.html">IncognitoInc</a>
-		<a href="contact.html">Contact</a>
+		<a class="{% if page.url == '/index/' %}active{% endif %}" href="{{site.baseurl}}/index/">Home</a>
+		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{site.baseurl}}/pixelart/">PixelArt</a>
+		<a class="{% if page.url == '/media/' %}active{% endif %}" href="{{site.baseurl}}/media/">SocialMedia</a>
+		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{site.baseurl}}/IncognitoInc/">IncognitoInc</a>
+		<a class="{% if page.url == '/contact/' %}active{% endif %}" href="{{site.baseurl}}/contact/">Contact</a>
 	</nav>
 </header>
 <header class="navbar_space">
