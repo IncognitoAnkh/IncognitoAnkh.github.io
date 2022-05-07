@@ -150,6 +150,19 @@ iframe{
   flex-flow: wrap; 
   justify-content: center;
   gap: 1em;
+  background: 
+    radial-gradient(
+      circle at top left,
+      transparent 85%,
+      rgba(255, 255, 255, .25)
+    ),
+    radial-gradient(
+      circle at bottom right,
+      transparent 85%,
+      rgba(255, 255, 255, .25)
+    ); 
+  border-radius: 0.5em;
+  margin: 0.5em;
 }
 
 .flex_principal{
@@ -171,24 +184,12 @@ iframe{
 
 /*--------------------------------------*/
 .card{
-  padding: 1em;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  background: 
-    radial-gradient(
-      circle at top left,
-      transparent 85%,
-      rgba(255, 255, 255, .25)
-    ),
-    radial-gradient(
-      circle at bottom right,
-      transparent 85%,
-      rgba(255, 255, 255, .25)
-    ); 
-  border-radius: 0.5em;
+  padding: 1em;
     /* background-color: red; */
 }
 
