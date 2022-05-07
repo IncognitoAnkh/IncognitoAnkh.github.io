@@ -1,35 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/pixelart.css">
-	<title>IncognitoAnkh - Social Media</title>
-</head>
-<body>
-    <div class="navbar">
-        <a class="logo" href="index.html">
-            <img class="img_logo" src="src/img/IncognitoAnkhLogo.png"/>
-        </a>
-        <nav class="navbar_buttons">
-            <a href="index.html">Home</a>
-            <a href="pixelart.html">PixelArt</a>
-            <a class="active" href="media.html">SocialMedia</a>
-            <a href="IncognitoInc.html">IncognitoInc</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
+---
+layout: default_mono_name
+title: IncognitoRadio
+banner_title: IncognitoRadio
+banner_subtitle: Quick look to IncognitoAnkh's pixel art creations.
+banner_css: pixelart
+---
+<h1 class="page_title">Social Media</h1>
+<!-- Content -->
+<div class="mini_wrapper flex_secondary" id="w1">
+    {% include contents/donations.html %}
+</div>  
 
-    <div class="wrapper">
-        <!-- <header class="header">
-            <img class="banner" src="src/img/IncognitoAnkhLogo.png"/>
-        </header> -->
-        <h1 class="page_title">Social Media</h1>
-        <div class="img_container">
-            <iframe src="https://player.twitch.tv/?channel=incognitoankh&parent=incognitoankh.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="480" width="720"></iframe>
-			<img class="image_big_content" src='src/wip.png'>
+<div class="mini_wrapper flex_principal" id="w2"> 
+    <div class="content">  
+        <div class="card flex_default">
+            <p>Aqui ira una descripcion bien mamalona pero ahorita nel jaja si.</p> 
         </div>
+    </div> 
+    <h2 class="">Miembros y Colaboradores</h2> 
+    <div class="content">  
+        <a class="card flex_default" href="https://www.twitch.tv/incognitoankh">
+            <img src="{{site.baseurl}}/src/img/portrait.png"> 
+            <h2>IncognitoAnkh</h2> 
+            <p>...</p>  
+        </a>
+        <a class="card flex_default" href="https://www.twitch.tv/incognitoankh">
+            <img src="{{site.baseurl}}/src/img/portrait.png"> 
+            <h2>...</h2> 
+            <p>...</p>  
+        </a>
+        <a class="card flex_default" href="https://www.twitch.tv/incognitoankh">
+            <img src="{{site.baseurl}}/src/img/portrait.png"> 
+            <h2>...</h2> 
+            <p>...</p>  
+        </a>
+    </div>  
+    <div class="content">  
+        <div class="card flex_default">
+            <iframe src="https://player.twitch.tv/?channel=incognitoankh&parent=incognitoankh.com" frameborder="0" allowfullscreen="true" scrolling="no" height="480" width="720"></iframe> 
+        </div>
+    </div> 
+    <h2 class="">Website Under Construction</h2>
+    <div class="content">  
+        <div class="card flex_default">
+            <p>...</p>  
+        </div>
+    </div> 
+</div>  
+
+<div class="mini_wrapper flex_secondary" id="w3">  
+    <h2 class="">Official Channel</h2>
+    <div class="content">
+        <a class="card flex_default" href="https://www.youtube.com/channel/UC4cmNc1jEmRKKG9d8lvGQgw">
+            <img src="{{site.baseurl}}/src/img/icons/incognito_radio_pfp.png"> 
+            <h2>IncognitoRadio</h2> 
+            <p>Streaming, video and entertainment.</p>  
+        </a>
     </div>
-</body>
-</html>
+</div>  

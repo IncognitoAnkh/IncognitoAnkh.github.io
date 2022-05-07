@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{site.baseurl}}/js/{{page.js_file}}.js" type="text/JavaScript"></script>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/default.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/{{ page.banner_css }}.css">
+	<title>{{ page.title }}</title>
+</head>
+<body>
+    {% include navbar.html %}
+    <div class="banner">
+        <h1 class="page_title">{{ page.banner_title }}</h1>
+        <h4 class="page_subtitle">>>> {{ page.banner_subtitle }} <<<</h4>
+    </div>
+    <div class="wrapper" id="main">
+    {{ content }}
+    </div> 
+    {% include footer.html %}
+</body>
+</html>
