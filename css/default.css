@@ -40,7 +40,8 @@ a:active { text-decoration: none; color:teal; }
 
 body{
     /* background-color: #24161e; */
-    background-color: rgba(36, 36, 36, 1);
+    /* background-color: rgba(36, 36, 36, 1); */
+    background-color: #181818;
     font-family: IncognitoInc;
     color: #dff6f5;
     text-align: center;
@@ -70,7 +71,8 @@ iframe{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(51, 51, 51, 1);
+  /* background-color: rgba(51, 51, 51, 1); */
+  background-color: #181818;
 }
 
 .navbar_space {
@@ -108,7 +110,8 @@ iframe{
 }
   
 .active {
-  background-color: rgb(141, 0, 49);
+  /* background-color: rgb(141, 0, 49); */
+  background-color: #2d214a;
 }
 /*--------------------------------------*/
 
@@ -200,7 +203,8 @@ iframe{
 
 /*----------------FOOTER----------------*/
 .footer{
-  background-color: #333;
+  /* background-color: #333; */
+  background-color: #181818;
   display:flex;
   width: 100%;
   min-height: 10vh;
