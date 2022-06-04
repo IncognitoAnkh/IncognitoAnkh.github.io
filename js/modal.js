@@ -4,12 +4,12 @@ let imgSrc;
 // get images src onclick
 images.forEach((img, i) => {
     img.addEventListener("click", (e) => {
-        imgSrc = e.target.src;
+        imgSrc = e.target.src.replace("thumbnails", "full");
         //run modal function
         imgModal(imgSrc);
         //index of the next image
         imgIndex = i;
-        console.log(i);
+        console.log(imgSrc);
     });
 });
 //creating the modal----------------------------------------------------------------
@@ -61,7 +61,7 @@ let nextImg = () => {
     }
 
     //return src of the new image
-    return images[imgIndex].src;
+    return images[imgIndex].src.replace("thumbnails", "full");
 };
 
 //previous image function
@@ -75,5 +75,5 @@ let prevImg = () => {
     }
 
     //return src of previous image
-    return images[imgIndex].src
+    return images[imgIndex].src.replace("thumbnails", "full");
 }
