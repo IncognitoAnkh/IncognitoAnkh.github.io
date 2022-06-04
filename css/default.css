@@ -157,12 +157,12 @@ iframe{
     radial-gradient(
       circle at top left,
       transparent 85%,
-      rgba(255, 255, 255, .25)
+      rgba(45, 33, 74, .65)
     ),
     radial-gradient(
       circle at bottom right,
       transparent 85%,
-      rgba(255, 255, 255, .25)
+      rgba(45, 33, 74, .65)
     ); 
   border-radius: 0.5em;
   margin: 0.5em;
