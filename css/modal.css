@@ -1,0 +1,64 @@
+.gallery_item {
+  cursor: pointer; 
+}
+
+.gallery_item img {
+  transition: 0.3s ease-in-out;
+}
+
+.gallery_item img:hover {
+  transform: scale(1.1);
+}
+
+.Btns{
+  font-size: 2.5em;
+  position: absolute;
+  margin: 1em;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.Btns:hover {
+  color: #2d214a;
+}
+
+.closeBtn {
+  top: 0;
+  right: 0;
+}
+
+.nextBtn {
+  right: 0;
+}
+
+.prevBtn {
+  left: 0;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/*Image modal*/
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.733);
+  margin-top: -1px;
+  animation: zoom 0.3s ease-in-out;
+}
+
+@keyframes zoom {
+  from {
+      transform: scale(0);
+  }
+  to {
+      transform: scale(1);
+  }
+}
