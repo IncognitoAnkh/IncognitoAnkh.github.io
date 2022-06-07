@@ -9,7 +9,6 @@ images.forEach((img, i) => {
         imgModal(imgSrc);
         //index of the next image
         imgIndex = i;
-        console.log(imgSrc);
     });
 });
 //creating the modal----------------------------------------------------------------
