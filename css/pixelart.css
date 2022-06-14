@@ -1,23 +1,10 @@
-.banner {
-  background:
-    linear-gradient(
-      rgba(0,0,0,0.25), 
-      rgba(0,0,0,0.25)
-      ),
-      radial-gradient(
-      circle at top left,
-      transparent 85%,
-      rgba(255, 255, 255, .25)
-      ),
-      radial-gradient(
-        circle at bottom right,
-        transparent 85%,
-        rgba(255, 255, 255, .25)
-      ),
-      url("/src/img/banners/banner1.png");
-  background-attachment: fixed;
-  /* background-size: cover; */
+.banner_img {
+  background: url("/src/img/banners/banner1.png");
   background-position: center;
-  background-position-y: -115%;
-  background-repeat:repeat-x;
+  background-position-y: 70%;
+  background-size: cover;
+}
+
+.page_space_top{
+  min-height: 24vh;
 }

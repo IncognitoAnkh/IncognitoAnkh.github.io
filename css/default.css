@@ -6,19 +6,22 @@
     font-style: normal;
 }
 
-a{color: orange;}
+a{color: orange; text-decoration: none;}
 a:visited { text-decoration: none; color: orange; }
 a:hover { text-decoration: none; color: #dff6f5; }
 a:focus { text-decoration: none; color:orange; }
-a:active { text-decoration: none; color:teal; }
+a:active { text-decoration: none; color: #2d214a; }
 
 .page_title{
+  padding: 0.5em;
   font-size: 2.5em;
+  background: radial-gradient(circle, black, transparent);
 }
 
 .page_subtitle{
-  padding: 1em;
+  padding: 0.5em;
   max-width: 48em;
+  background: radial-gradient(circle, black, transparent);
 }
 
 .highlight{ color: #FFC000; }
@@ -59,6 +62,10 @@ iframe{
   max-width: 100%;
   max-height: 100%;
   display: block;
+}
+
+#main{
+  background: #181818;
 }
 /*--------------------------------------*/
 
@@ -123,6 +130,39 @@ iframe{
   width: 100%;
   justify-content: center;
   align-items: center;
+  background: 
+    radial-gradient(
+      circle at top left,
+      transparent 85%,
+      rgba(45, 33, 74, .65)
+    ),
+    radial-gradient(
+      circle at bottom right,
+      transparent 85%,
+      rgba(45, 33, 74, .65)
+    );
+}
+
+.banner_img{
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 3em;
+  z-index: -999;
+  min-height: 35vh;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.page_space_top{
+  background: transparent;
+  width: 100%;
+}
+
+.page_space_bottom{
+  background: transparent;
+  width: 100%;
 }
 /*--------------------------------------*/
 
@@ -204,7 +244,7 @@ iframe{
 /*----------------FOOTER----------------*/
 .footer{
   /* background-color: #333; */
-  background-color: #181818;
+  background-color: #2d214a;
   display:flex;
   width: 100%;
   min-height: 10vh;

@@ -1,11 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: main
 title: Home
-banner_title: Welcome to IncognitAnkh's official webpage!
-banner_subtitle: Home of all IncognitoAnkh's projects
-banner_css: pixelart
+banner_title: Pixel Art, Streaming and More!
+banner_subtitle: Welcome to the home of all my projects
+banner_css: main
 js_file: default
 ---
 {% include index_contents.html %}

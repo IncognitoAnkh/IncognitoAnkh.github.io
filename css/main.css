@@ -1,0 +1,9 @@
+.banner_img{
+    background: url("/src/img/banners/main.png");
+    background-position-y: 45%;
+    background-size: cover;
+}
+
+.page_space_top{
+    min-height: 24vh;
+}
