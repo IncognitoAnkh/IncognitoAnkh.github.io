@@ -13,6 +13,7 @@ a:focus { text-decoration: none; color:orange; }
 a:active { text-decoration: none; color: #2d214a; }
 
 .page_title{
+  color: #FFC000;
   padding: 0.5em;
   font-size: 2.5em;
   background: radial-gradient(circle, black, transparent);
@@ -223,6 +224,11 @@ iframe{
 .flex_mini{
   flex: 1 0 8em;
 }
+
+.flex_micro{
+  flex: 0 0 2em;
+}
+
 /*--------------------------------------*/
 
 /*--------------------------------------*/
@@ -234,10 +240,22 @@ iframe{
   gap: 1em;
   padding: 1em;
     /* background-color: red; */
+  min-width: 0;
+  text-overflow:ellipsis;
+  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .card > img{
   max-height: 16em;
+}
+
+.card > h2{
+  font-size: 120%;
+}
+
+.card > p{
+  font-size: 100%;
 }
 /*--------------------------------------*/
 

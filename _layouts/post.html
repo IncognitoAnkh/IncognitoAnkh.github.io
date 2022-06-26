@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/default.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/{{ page.banner_css }}.css">
+    <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/src/img/{{ page.favicon }}">
+	<title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body class="main">
+    {% include navbar.html %}
+    <div class="banner">
+        <div class="page_space_top"></div>
+        <h1 class="page_title">{{ page.title }}</h1>
+        <h4 class="page_subtitle">>>> {{ page.date | date_to_long_string }} <<<</h4>
+        <div class="page_space_bottom"></div>
+    </div>
+    <div class="banner_img">
+    </div>
+    <div class="wrapper" id="main">
+
+        <div class="mini_wrapper flex_secondary" id="w1">
+            {% include contents/donations.html %}
+            <h2 class="">Social Media</h2>
+            {% include contents/socialmedia.html %}
+        </div>
+
+        <div class="mini_wrapper flex_principal" id="w2"> 
+            <div class="content">
+                <div class="card flex_default">
+                    <!-- <h1 class="highlight">{{ page.title }}</h1> 
+                    <time datetime="{{ page.date | date: "%d-%m-%Y" }}">{{ page.date | date_to_long_string }}</time> -->
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        <div class="mini_wrapper flex_secondary" id="w3">  
+            {% include contents/twitter_feed.html %}
+        </div>  
+
+    </div> 
+    {% include footer.html %}
+</body>
+</html>

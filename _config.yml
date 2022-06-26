@@ -42,3 +42,4 @@ markdown: kramdown
 
 #custom
 permalink: pretty
+excerpt_separator: <!--more-->

@@ -1,0 +1,8 @@
+.banner_img{
+  background: url("/src/img/banners/banner_incognitoradio.png");
+  background-position-y: 50%;
+}
+
+.page_space_top{
+  min-height: 24vh;
+}

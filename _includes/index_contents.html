@@ -1,9 +1,12 @@
+<!-- Load -->
+<script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/modal.css">
+<script async src="/js/modal.js" crossorigin="anonymous"></script>
+
 <!-- Content -->
 <div class="mini_wrapper flex_secondary" id="w1">
     {% include contents/donations.html %}
-    <h2 class="">Channels</h2>
-    {% include contents/twitch.html %}
-    {% include contents/youtube.html %}
+    {% include contents/socialmedia.html %}
 </div>  
 
 <div class="mini_wrapper flex_principal" id="w2"> 
@@ -16,8 +19,8 @@
         </a>
         <a class="card flex_default">
             <img src="{{site.baseurl}}/src/img/icons/xibalbak_logo_scaled.png"> 
-            <h2>Xibalbak</h2> 
-            <p>Minecraft server.</p>  
+            <h2 class="NO">Xibalbak MC Server</h2> 
+            <p class="NO">Work in progress</p>  
         </a>
         <a class="card flex_default" href="{{site.baseurl}}/pixelart/">
             <img src="{{site.baseurl}}/src/portfolio/thumbnails/guis/thumb2.png">
@@ -27,20 +30,31 @@
         <a class="card flex_default" href="https://mcmodels.net/vendors/incognitoankh-market/" target="_blank" rel="noopener noreferrer">
             <img src="{{site.baseurl}}/src/img/icons/mcmodels.png"> 
             <h2>My asset market</h2> 
-            <p>2D and 3D Assets, Models, GUI, Items, MC Mobs, Bosses and much more!</p>  
+            <p>2D and 3D Assets, Models, GUI, Items, MC Mobs, Bosses and much more! <span class="NO">No Products for the Moment</span></p>  
+        </a>
+        <a class="card flex_default">
+            <img src="{{site.baseurl}}/src/img/portrait.png"> 
+            <h2 class="NO">News Index</h2> 
+            <p class="NO">Work in progress</p>  
         </a>
     </div>  
-    <h2 class="">Website Under Construction</h2>
+    <h2 class="">News</h2>
     <div class="content">  
-        <div class="card flex_default">
-            <p>...</p>  
+        {% for post in site.posts limit:6 %}
+        <div class="card flex_secondary">  
+            <article>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <time datetime="{{ post.date | date: "%d-%m-%Y" }}">{{ post.date | date_to_long_string }}</time>
+                <br>
+                <br>
+                {{ post.excerpt }}
+                    <!-- {{ post.content | strip_html | truncatewords: 64 }} -->
+            </article>
         </div>
+        {% endfor %}
     </div> 
 </div>  
 
 <div class="mini_wrapper flex_secondary" id="w3">  
-    <h2 class="">Media Accounts</h2>
-    {% include contents/instagram.html %}
-    {% include contents/twitter.html %}
-    {% include contents/facebook.html %}
+    {% include contents/twitter_feed.html %}
 </div>  

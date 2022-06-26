@@ -7,5 +7,6 @@ banner_title: Pixel Art, Streaming and More!
 banner_subtitle: Welcome to the home of all my projects
 banner_css: main
 js_file: default
+favicon: icons/IncognitoAnkhMini_scaled.png
 ---
 {% include index_contents.html %}
