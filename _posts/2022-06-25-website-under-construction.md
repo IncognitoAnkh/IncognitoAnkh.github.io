@@ -1,0 +1,58 @@
+---
+layout: post
+banner_css: generic_post
+js_file: default
+favicon: icons/IncognitoAnkhMini_scaled.png
+title:  "Bienvenido a IncognitoAnkh.com!"
+date:   2022-06-25 01:10:00 +0000
+categories: es website
+---
+<!-- Content -->
+<p class="justify">
+On this website you can find everything related to different projects created by me or in which I participate as well as recommendations, the page is currently under construction, however some important updates were made such as the creation of this news section, here you will be informed about important news related to the different projects and the page itself.
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="{{site.baseurl}}/src/img/banners/main.png">  
+    <p>Main Banner</p>  
+</div>
+
+<!--more-->
+<p class="justify">
+<span class="highlight">Updates:</span>
+<br>
+<br>
+* Links to social networks have been combined in a single widget so that they do not take up too much space.
+<br>
+<br>
+* Added a quick look at my tweets.
+<br>
+<br>
+* A section dedicated to recent blog entries (News) was added to the main screen, it will show a brief description of each one, clicking on their titles will take you to the entry in question to see it in its whole.
+<br>
+<br>
+* Added links dedicated to each member, collaborator and recommended in the IncognitoRadio section.
+<br>
+<br>
+<br>
+<span class="highlight">Future Plans:</span>
+<br>
+<br>
+* Add multilanguage support, this in order to avoid having pages with different languages and maintain a certain uniformity.
+<br>
+<br>
+* Navbar Menu for mobile version
+<br>
+<br>
+* Collaborator Profiles
+<br>
+<br>
+* Xibalbak Section
+<br>
+<br>
+* Index of News
+</p>
+<!-- Load -->
+<script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/modal.css">
+<script async src="/js/modal.js" crossorigin="anonymous"></script>

@@ -2,7 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 
-_posts
 .devcontainer
 
 about.metadata
