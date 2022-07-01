@@ -1,29 +1,69 @@
 global:
-    spanish: 🇲🇽 Spanish
-    english: 🇬🇧 English
-
-main:
-  site:
-    name: "IncognitoAnkh"
+    spanish: ":mexico: Spanish"
+    english: ":gb: English"
+    url_code: ""
+    site_name: IncognitoAnkh
     tagline: Official IncognitoAnkh's projects website, Pixel Art, Streaming and More.
     description: Official website for IncognitoAnkh related projects such as Pixel Art Commissions, Live Streams, Entertainment, Minecraft Servers and much more.
     keywords: pixelart, website, streaming, minecraft, commissions, videogames,
 
-  banner:
-    title: "Pixel Art, Streaming and More!"
-    subtitle: "Welcome to the home of all my projects"
-
-pixelart:
-  banner:
+pages:
+  main:
+    title: Home
+    banner:
+      title: Pixel Art, Streaming and More!
+      subtitle: Welcome to the home of all my projects
+  error404:
+    title: "Error 404"
+    banner:
+      title: "Error 404"
+      subtitle: "The requested page could not be found :("
+  pixelart:
     title: PixelArt Portfolio
-    subtitle: Quick look to IncognitoAnkh's pixel art creations.
-
-pixelart_archive:
-  banner:
+    banner:
+      title: PixelArt Portfolio
+      subtitle: Quick look to IncognitoAnkh's pixel art creations.
+  pixelart_archive:
     title: PixelArt Archive
-    subtitle: A slightly broader look at IncognitoAnkh's pixel art creations.
+    banner:
+      title: PixelArt Archive
+      subtitle: A slightly broader look at IncognitoAnkh's pixel art creations.
+  incognito_radio:
+    title: ":>IncognitoRadio"
+    banner:
+      title: ":>IncognitoRadio"
+      subtitle: Live Streaming, Videos and Entertainment.
+  commissions:
+    title: Commissions
+    banner:
+      title: Pixel Art Commissions
+      subtitle: Terms of service, license and illustrative pricing for IncognitoAnkh's direct pixel art commissions.
+  incognitoinc:
+    title: ":>IncognitoInc."
+    banner:
+      title: ":>IncognitoInc."
+      subtitle: na
 
-incognito_radio:
-  banner:
-    title: IncognitoRadio
-    subtitle: Live Streaming, Videos and Entertainment.
+widgets:
+  donations:
+    title: Support
+    desc: If you like my work and want to help me continue doing it for a long time, you can consult the different ways to support me by clicking here.
+  request_commission:
+    title_1: Status
+    subtitle_1: Overbooked, Commissions CLOSED
+    desc_1: Sorry for the inconvenience, there are no slots for commissions available, if the wait is not a problem for you, contact me to reserve a space and attend you as soon as there is a slot available.
+    subtitle_2: Commissions OPEN
+    desc_2: Commission slots are available..
+    subtitle_3: On Vacation, Commissions CLOSED
+    desc_3: Sorry for the inconvenience, I'll be back soon, if the wait is not a problem for you, contact me to reserve a space and assist you as soon as the commissions open again.
+    subtitle_4: Commissions CLOSED
+    desc_4: Sorry for the inconvenience, no commission slots will be available until further notice.
+    title_2: Request a Commission!
+    desc: Click here to read my terms of service, usage license and find my contact data.
+  socialmedia:
+    title: Social Media
+    desc: empty
+  twitter_feed:
+    title: Recent Tweets
+    desc_1: Follow
+    desc_2: Tweets by

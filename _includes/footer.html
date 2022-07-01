@@ -2,8 +2,8 @@
 	<div class="content">
 		<div class="flex_default">
 			<div class="content c_footer">
-				<a class="{% if site.lang == 'en' %}gold_active{% endif %}" href="{{ site.url }}{{ page.url}}" >{% t global.english %}</a>
-				<a class="{% if site.lang == 'es' %}gold_active{% endif %}" href="{{ site.url }}/es{{ page.url  }}" >{% t global.spanish %}</a>
+				<a class="lang_button {% if site.lang == 'en' %}gold_active{% endif %}" href="{{ site.url }}{{ page.url}}" >{% t global.english %}</a>
+				<a class="lang_button {% if site.lang == 'es' %}gold_active{% endif %}" href="{{ site.url }}/es{{ page.url  }}" >{% t global.spanish %}</a>
 			</div>
 			<div class="content c_footer">
 				<a href="https://www.youtube.com/channel/UCxK-cqbwU3nLcyxA6TXBQhQ" class="flex_micro" target="_blank" rel="noopener noreferrer">

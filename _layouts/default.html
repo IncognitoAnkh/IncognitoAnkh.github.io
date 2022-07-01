@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/default.css">
     <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/{{ page.banner_css }}.css">
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl_root }}/assets/images/{{ page.favicon }}">
-	<title>{{ site.title }} - {{ page.title }}</title>
+	<title>{{ site.title }} - {% t page.title %}</title>
 </head>
 <body class="main">
     {% include navbar.html %}
     <div class="banner">
         <div class="page_space_top"></div>
-        <h1 class="page_title">{{ page.banner_title }}</h1>
-        <h4 class="page_subtitle">>>> {{ page.banner_subtitle }} <<<</h4>
+        <h1 class="page_title">{% t page.banner_title %}</h1>
+        <h4 class="page_subtitle">>>> {% t page.banner_subtitle %} <<<</h4>
         <div class="page_space_bottom"></div>
     </div>
     <div class="banner_img">

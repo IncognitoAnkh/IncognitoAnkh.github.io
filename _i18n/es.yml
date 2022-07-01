@@ -1,28 +1,69 @@
 global:
-    spanish: 🇲🇽 Español
-    english: 🇬🇧 Ingles
-main:
-  site:
-    name: IncognitoAnkh
+    spanish: ":mexico: Español"
+    english: ":gb: Ingles"
+    url_code: /es
+    site_name: IncognitoAnkh
     tagline: Sitio web oficial de proyectos de IncognitoAnkh, Pixel Art, Streaming y más.
     description: Sitio web oficial de proyectos relacionados con IncognitoAnkh, como Comisiones de Pixel Art, Transmisiones en Directo, Entretenimiento, Servidores de Minecraft y mucho más.
     keywords: pixelart, pagina web, transmisiones en Directo, minecraft, comisiones, videojuegos,
 
-  banner:
-    title: Pixel Art, Streaming y Mas!
-    subtitle: Bienvenido al hogar de todos mis proyectos
-
-pixelart:
-  banner:
-    title: Portafolio de Pixel Art
-    subtitle: Un vistazo rapido a las creaciones de IncognitoAnkh.
-
-pixelart_archive:
-  banner:
-    title: Archivo de Pixel Art
-    subtitle: Un vistazo un poco mas extenso al as creaciones en Pixel Art de IncognitoAnkh.
-
-incognito_radio:
-  banner:
-    title: IncognitoRadio
-    subtitle: Transmisiones en directo, Videos y Entretenimiento.
+pages:
+  main:
+    title: Home
+    banner:
+      title: Pixel Art, Streaming y Mas!
+      subtitle: Bienvenido al hogar de todos mis proyectos
+  error404:
+    title: "Error 404"
+    banner:
+      title: "Error 404"
+      subtitle: "La página solicitada no pudo ser encontrada :("
+  pixelart:
+    title: PixelArt Portafolio
+    banner:
+      title: Portafolio de Pixel Art
+      subtitle: Un vistazo rapido a las creaciones de IncognitoAnkh.
+  pixelart_archive:
+    title: PixelArt Archivo
+    banner:
+      title: Archivo de Pixel Art
+      subtitle: Un vistazo un poco mas extenso al as creaciones en Pixel Art de IncognitoAnkh.
+  incognito_radio:
+    title: ":>IncognitoRadio"
+    banner:
+      title: ":>IncognitoRadio"
+      subtitle: Transmisiones en directo, Videos y Entretenimiento.
+  commissions:
+    title: Comisiones
+    banner:
+      title: Comisiones de Pixel Art
+      subtitle: Términos de servicio, licencia y precios ilustrativos para las comisiones directas de pixel art de IncognitoAnkh.
+  incognitoinc:
+    title: ":>IncognitoInc."
+    banner:
+      title: ":>IncognitoInc."
+      subtitle: Proximamente...
+  
+widgets:
+  donations:
+    title: Apoyar
+    desc: Si te gusta mi trabajo y deseas ayudarme a seguir haciéndolo durante mucho tiempo, puedes consultar las distintas formas de apoyarme haciendo click aqui.
+  request_commission:
+    title_1: Estado
+    subtitle_1: Overbooked, Comisiones CERRADAS
+    desc_1: Disculpe las molestias, no hay cupos para comisiones disponibles, si la espera no es un problema para usted, contácteme para reservar un espacio y atenderlo tan pronto como haya un cupo disponible.
+    subtitle_2: Comisiones ABIERTAS
+    desc_2: Hay espacios para comisiones disponibles.
+    subtitle_3: De Vacaciones, Comisiones CERRADAS
+    desc_3: Disculpe las molestias, pronto estaré de regreso, si la espera no es un problema para usted, contácteme para reservar un espacio y atenderlo tan pronto como las comisiones se abran nuevamente.
+    subtitle_4: Comisiones CERRADAS
+    desc_4: Disculpe las molestias, no habrá espacios para comisiones disponibles hasta nuevo aviso.
+    title_2: ¡Solicite una Comisión!
+    desc: Haga clic aquí para leer mis términos de servicio, licencia de uso y encontrar mis datos de contacto.
+  socialmedia:
+    title: Redes Sociales
+    desc: empty
+  twitter_feed:
+    title: Tweets Recientes
+    desc_1: Sigue a
+    desc_2: Tweets de

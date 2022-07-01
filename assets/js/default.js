@@ -1,5 +1,5 @@
 window.onload = ImageRandom;
-imagesArray = ["/src/img/MLOPLN.png", "/src/img/Bruno.png", "/src/img/MondoParado.png"];
+imagesArray = ["/assets/images/MLOPLN.png", "/assets/images/Bruno.png", "/assets/images/MondoParado.png"];
 function ImageRandom(){
 
      var num = Math.floor(Math.random() * 3);
