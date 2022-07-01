@@ -1,16 +1,28 @@
 <header class="navbar">
+{% if site.lang == "en" %}
 	<a class="logo" href="/">
-		<img class="img_logo" src="{{site.baseurl}}/src/img/IncognitoAnkhLogo.png"/>
+		<img class="img_logo" src="{{ site.baseurl_root }}/assets/images/IncognitoAnkhLogo.png"/>
 	</a>
 	<nav class="navbar_buttons">
 		<a class="{% if page.url == '/' %}active{% endif %}" href="/">Home</a>
-		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{site.baseurl}}/pixelart/">PixelArt</a>
-		<a class="{% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{site.baseurl}}/incognitoradio/">IncognitoRadio</a>
-		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{site.baseurl}}/IncognitoInc/">IncognitoInc</a>
+		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}/pixelart/">PixelArt</a>
+		<a class="{% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{ site.baseurl_root }}/incognitoradio/">IncognitoRadio</a>
+		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{ site.baseurl_root }}/IncognitoInc/">IncognitoInc</a>
 	</nav>
+{% else if site.lang == "es" %}
+	<a class="logo" href="{{ site.baseurl_root }}/es/">
+		<img class="img_logo" src="{{ site.baseurl_root }}/assets/images/IncognitoAnkhLogo.png"/>
+	</a>
+	<nav class="navbar_buttons">
+		<a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl_root }}/es/">Home</a>
+		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}/es/pixelart/">PixelArt</a>
+		<a class="{% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{ site.baseurl_root }}/es/incognitoradio/">IncognitoRadio</a>
+		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{ site.baseurl_root }}/es/IncognitoInc/">IncognitoInc</a>
+	</nav>
+{% endif %}
 </header>
-<header class="navbar_space">
+<!-- <header class="navbar_space">
 	<nav class="navbar_space_buttons">
 		<a>.</a>
 	</nav>
-</header>
+</header> -->

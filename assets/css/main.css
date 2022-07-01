@@ -1,5 +1,5 @@
 .banner_img{
-    background: url("/src/img/banners/main.png");
+    background: url("/assets/images/banners/main.png");
     background-position-y: 45%;
     background-size: cover;
 }

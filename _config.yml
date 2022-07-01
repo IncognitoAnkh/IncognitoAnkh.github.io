@@ -25,7 +25,9 @@ github_username:  IncognitAnkh
 # Build settings
 markdown: kramdown
 #theme: minima
-#plugins:
+plugins:
+  - jekyll-multiple-languages-plugin
+  - jemoji
 #  - jekyll-feed
 
 # Exclude from processing.
@@ -43,3 +45,8 @@ markdown: kramdown
 #custom
 permalink: pretty
 excerpt_separator: <!--more-->
+
+languages: ["en", "es"]
+defaultLang: en
+exclude_from_localizations: [ "assets" ]
+default_locale_in_subfolder: false

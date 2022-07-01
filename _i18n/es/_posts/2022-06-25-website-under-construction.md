@@ -1,0 +1,58 @@
+---
+layout: post
+banner_css: generic_post
+js_file: default
+favicon: icons/IncognitoAnkhMini_scaled.png
+title:  "Bienvenido a IncognitoAnkh.com!"
+date:   2022-06-25 01:10:00 +0000
+categories: es website
+---
+<!-- Content -->
+<p class="justify">
+En este sitio web podrás encontrar todo lo relacionado a diferentes proyectos creados por mí o en los que participo así como recomendaciones, la página actualmente se encuentra en construcción, sin embargo se realizaron algunas actualizaciones importantes como la creación de esta sección de noticias, aquí estarás informado sobre noticias importantes relacionadas con los diferentes proyectos y la propia página.
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="{{ site.baseurl_root }}/assets/images/banners/main.png">  
+    <p>Banner Principal</p>  
+</div>
+
+<!--more-->
+<p class="justify">
+<span class="highlight">Actualizaciones:</span>
+<br>
+<br>
+* Los enlaces a las redes sociales se han combinado en un solo widget para que no ocupen demasiado espacio.
+<br>
+<br>
+* Se agregó un vistazo rápido a mis tweets.
+<br>
+<br>
+* Se agregó a la pantalla principal una sección dedicada a las entradas recientes del blog (Noticias), mostrará una breve descripción de cada una, haciendo clic en sus títulos te llevará a la entrada en cuestión para verla en su totalidad.
+<br>
+<br>
+* Añadidos enlaces dedicados a cada miembro, colaborador y recomendado en la sección IncognitoRadio.
+<br>
+<br>
+<br>
+<span class="highlight">Planes Futuros:</span>
+<br>
+<br>
+* Agregar soporte multilenguaje, esto con el fin de evitar tener páginas con diferentes idiomas y mantener cierta uniformidad.
+<br>
+<br>
+* Menú de la barra de navegación para la versión móvil
+<br>
+<br>
+* Perfiles de colaboradores
+<br>
+<br>
+* Sección Xibalbak
+<br>
+<br>
+* Índice de Noticias
+</p>
+<!-- Load -->
+<script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/css/modal.css">
+<script async src="/assets/js/modal.js" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 /*-----------------FONT-----------------*/
 @font-face { 
     font-family: 'IncognitoInc';
-    src: url('../src/font/IncognitoInc.woff') format('woff');
+    src: url('../font/IncognitoInc.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -269,6 +269,37 @@ iframe{
   align-items: center;
   justify-content: center;
 }
+
+.footer a {
+  color: #dff6f5;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1em;
+  border-radius: 0.1em;
+}
+  
+.footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.gold_active {
+  /* background-color: rgb(141, 0, 49); */
+  background-color: #FFC000;
+  color: black !important;
+}
+
+.c_footer{  
+  padding: 0em;
+  gap: 0em;
+  margin: 0.5em;
+}
+/*--------------------------------------*/
+
+/*---------------DROPDOWN---------------*/
+
 /*--------------------------------------*/
 
 @media screen and (max-width: 1408px) {

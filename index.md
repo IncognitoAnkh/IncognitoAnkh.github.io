@@ -1,12 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: main
-title: Home
-banner_title: Pixel Art, Streaming and More!
-banner_subtitle: Welcome to the home of all my projects
+title: main.site.name
+banner_title: main.banner.title
+banner_subtitle: main.banner.subtitle
+namespace: home
+permalink: /
+permalink_es: /
 banner_css: main
 js_file: default
 favicon: icons/IncognitoAnkhMini_scaled.png
 ---
-{% include index_contents.html %}
+{% tf index.md %}

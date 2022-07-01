@@ -3,7 +3,7 @@ layout: post
 banner_css: generic_post
 js_file: default
 favicon: icons/IncognitoAnkhMini_scaled.png
-title:  "Bienvenido a IncognitoAnkh.com!"
+title:  "Welcome to IncognitoAnkh.com!"
 date:   2022-06-25 01:10:00 +0000
 categories: es website
 ---
@@ -13,7 +13,7 @@ On this website you can find everything related to different projects created by
 </p>
 
 <div class="card flex_default gallery_item">
-    <img src="{{site.baseurl}}/src/img/banners/main.png">  
+    <img src="{{ site.baseurl_root }}/assets/images/banners/main.png">  
     <p>Main Banner</p>  
 </div>
 
@@ -54,5 +54,5 @@ On this website you can find everything related to different projects created by
 </p>
 <!-- Load -->
 <script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="/css/modal.css">
-<script async src="/js/modal.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/css/modal.css">
+<script async src="/assets/js/modal.js" crossorigin="anonymous"></script>

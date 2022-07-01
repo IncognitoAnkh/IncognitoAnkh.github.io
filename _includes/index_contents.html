@@ -1,7 +1,7 @@
 <!-- Load -->
 <script async src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="/css/modal.css">
-<script async src="/js/modal.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/css/modal.css">
+<script async src="/assets/js/modal.js" crossorigin="anonymous"></script>
 
 <!-- Content -->
 <div class="mini_wrapper flex_secondary" id="w1">
@@ -12,28 +12,28 @@
 <div class="mini_wrapper flex_principal" id="w2"> 
     <h2 class="">Main Projects</h2> 
     <div class="content">  
-        <a class="card flex_default" href="{{site.baseurl}}/incognitoradio/">
-            <img src="{{site.baseurl}}/src/img/icons/IncognitoRadioMini_scaled.png"> 
+        <a class="card flex_default" href="{{ site.baseurl_root }}/incognitoradio/">
+            <img src="{{ site.baseurl_root }}/assets/images/icons/IncognitoRadioMini_scaled.png"> 
             <h2>IncognitoRadio</h2> 
             <p>Streaming, video and entertainment.</p>  
         </a>
         <a class="card flex_default">
-            <img src="{{site.baseurl}}/src/img/icons/xibalbak_logo_scaled.png"> 
+            <img src="{{ site.baseurl_root }}/assets/images/icons/xibalbak_logo_scaled.png"> 
             <h2 class="NO">Xibalbak MC Server</h2> 
             <p class="NO">Work in progress</p>  
         </a>
-        <a class="card flex_default" href="{{site.baseurl}}/pixelart/">
-            <img src="{{site.baseurl}}/src/portfolio/thumbnails/guis/thumb2.png">
+        <a class="card flex_default" href="{{ site.baseurl_root }}/pixelart/">
+            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/thumb2.png">
             <h2>PixelArt</h2> 
             <p>Portfolio and commissions</p>  
         </a>
         <a class="card flex_default" href="https://mcmodels.net/vendors/incognitoankh-market/" target="_blank" rel="noopener noreferrer">
-            <img src="{{site.baseurl}}/src/img/icons/mcmodels.png"> 
+            <img src="{{ site.baseurl_root }}/assets/images/icons/mcmodels.png"> 
             <h2>My asset market</h2> 
             <p>2D and 3D Assets, Models, GUI, Items, MC Mobs, Bosses and much more! <span class="NO">No Products for the Moment</span></p>  
         </a>
         <a class="card flex_default">
-            <img src="{{site.baseurl}}/src/img/portrait.png"> 
+            <img src="{{ site.baseurl_root }}/assets/images/portrait.png"> 
             <h2 class="NO">News Index</h2> 
             <p class="NO">Work in progress</p>  
         </a>
@@ -57,4 +57,4 @@
 
 <div class="mini_wrapper flex_secondary" id="w3">  
     {% include contents/twitter_feed.html %}
-</div>  
+</div> 

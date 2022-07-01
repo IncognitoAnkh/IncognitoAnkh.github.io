@@ -1,0 +1,19 @@
+global:
+    spanish: 🇲🇽 Spanish
+    english: 🇬🇧 English
+
+main:
+  site:
+    name: "IncognitoAnkh"
+    tagline: Official IncognitoAnkh's projects website, Pixel Art, Streaming and More.
+    description: Official website for IncognitoAnkh related projects such as Pixel Art Commissions, Live Streams, Entertainment, Minecraft Servers and much more.
+    keywords: pixelart, website, streaming, minecraft, commissions, videogames,
+
+  banner:
+    title: "Pixel Art, Streaming and More!"
+    subtitle: "Welcome to the home of all my projects"
+
+pixelart:
+  banner:
+    title: PixelArt Portfolio
+    subtitle: Quick look to IncognitoAnkh's pixel art creations.
