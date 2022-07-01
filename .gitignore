@@ -5,5 +5,3 @@ _site
 .devcontainer
 
 about.metadata
-Gemfile
-Gemfile.lock
