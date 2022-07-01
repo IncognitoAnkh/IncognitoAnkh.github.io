@@ -42,9 +42,11 @@ pages:
     title: ":>IncognitoInc."
     banner:
       title: ":>IncognitoInc."
-      subtitle: na
+      subtitle: Proximamente...
 
 widgets:
+  footer:
+    copyright: © 2022 IncognitoAnkh. All Rights Reserved.
   donations:
     title: Support
     desc: If you like my work and want to help me continue doing it for a long time, you can consult the different ways to support me by clicking here.

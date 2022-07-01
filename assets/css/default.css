@@ -6,9 +6,9 @@
     font-style: normal;
 }
 
-a{color: orange; text-decoration: none;}
+a{color: orange; text-decoration: none; transition: 0.3s ease-in-out;}
 a:visited { text-decoration: none; color: orange; }
-a:hover { text-decoration: none; color: #dff6f5; }
+a:hover { text-decoration: none; color: #dff6f5; transform: scale(1.05);}
 a:focus { text-decoration: none; color:orange; }
 a:active { text-decoration: none; color: #2d214a; }
 
@@ -25,6 +25,7 @@ a:active { text-decoration: none; color: #2d214a; }
   background: radial-gradient(circle, black, transparent);
 }
 
+.quiet{ color: #dff6f5; }
 .highlight{ color: #FFC000; }
 .NO{ color: #FF0000; }
 .YES{ color: #92D050; }
@@ -33,6 +34,7 @@ a:active { text-decoration: none; color: #2d214a; }
 .mini_wrapper > h2{
   margin: 1em;
 }
+
 /*--------------------------------------*/
 
 /*----------------GENERAL---------------*/

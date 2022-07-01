@@ -45,6 +45,8 @@ pages:
       subtitle: Proximamente...
   
 widgets:
+  footer:
+    copyright: © 2022 IncognitoAnkh. Todos los Derechos Reservados.
   donations:
     title: Apoyar
     desc: Si te gusta mi trabajo y deseas ayudarme a seguir haciéndolo durante mucho tiempo, puedes consultar las distintas formas de apoyarme haciendo click aqui.

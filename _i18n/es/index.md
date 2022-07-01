@@ -1,1 +1,1 @@
-{% include index_contents.html %}
+{% include index_contents_es.html %}
