@@ -50,3 +50,5 @@ languages: ["en", "es"]
 defaultLang: en
 exclude_from_localizations: [ "assets" ]
 default_locale_in_subfolder: false
+
+include: [".well-known"]
