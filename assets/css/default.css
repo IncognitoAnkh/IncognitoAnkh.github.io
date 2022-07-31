@@ -254,11 +254,21 @@ iframe{
 }
 
 .card > h2{
-  font-size: 120%;
+  font-size: 100%;
 }
 
 .card > p{
+  font-size: 80%;
+}
+
+.ignore_a > p{
+  font-size: 80%;
+  color: #dff6f5;
+}
+
+.ignore_a > h2{
   font-size: 100%;
+  color: #dff6f5;
 }
 /*--------------------------------------*/
 
