@@ -30,6 +30,7 @@ a:active { text-decoration: none; color: #2d214a; }
 .NO{ color: #FF0000; }
 .YES{ color: #92D050; }
 .justify{ text-align: justify; }
+.centered{ text-align: center; }
 
 .mini_wrapper > h2{
   margin: 1em;
@@ -241,10 +242,10 @@ iframe{
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding: 1em;
-    /* background-color: red; */
+  padding: 0.5em;
+  /* background-color: red; */
   min-width: 0;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   overflow: hidden;
   overflow-wrap: anywhere;
 }

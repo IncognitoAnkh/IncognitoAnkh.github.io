@@ -69,3 +69,7 @@ widgets:
     title: Tweets Recientes
     desc_1: Sigue a
     desc_2: Tweets de
+  instagram_feed:
+    title: Imagenes Recientes
+    desc_1: Sigue a
+    desc_2: Imagenes de

@@ -69,3 +69,7 @@ widgets:
     title: Recent Tweets
     desc_1: Follow
     desc_2: Tweets by
+  instagram_feed:
+    title: Recent images
+    desc_1: Follow
+    desc_2: images by
