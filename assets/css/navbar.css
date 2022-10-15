@@ -61,10 +61,10 @@
 }
 
 .menubtn{
-  font-size: 2em;
+  font-size: 2.5em;
   color: #fff;
   float: right;
-  margin-right: 1em;
+  margin-right: 2%;
   cursor: pointer;
   display: none;
   z-index: 1000;

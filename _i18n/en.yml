@@ -53,14 +53,14 @@ widgets:
   request_commission:
     title_1: Status
     subtitle_1: Overbooked, Commissions CLOSED
-    desc_1: Sorry for the inconvenience, there are no slots for commissions available, if the wait is not a problem for you, contact me to reserve a space and attend you as soon as there is a slot available.
+    desc_1: Sorry for the inconvenience, there are no slots available, if the wait is not a problem for you, contact me to reserve a space and attend you as soon as possible.
     subtitle_2: Commissions OPEN
     desc_2: Commission slots are available..
     subtitle_3: On Vacation, Commissions CLOSED
     desc_3: Sorry for the inconvenience, I'll be back soon, if the wait is not a problem for you, contact me to reserve a space and assist you as soon as the commissions open again.
     subtitle_4: Commissions CLOSED
     desc_4: Sorry for the inconvenience, no commission slots will be available until further notice.
-    title_2: Request a Commission!
+    title_2: Click Here to Request a Commission!
     desc: Click here to read my terms of service, usage license and find my contact data.
   socialmedia:
     title: Social Media

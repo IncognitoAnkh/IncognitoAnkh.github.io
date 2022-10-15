@@ -53,14 +53,14 @@ widgets:
   request_commission:
     title_1: Estado
     subtitle_1: Overbooked, Comisiones CERRADAS
-    desc_1: Disculpe las molestias, no hay cupos para comisiones disponibles, si la espera no es un problema para usted, contácteme para reservar un espacio y atenderlo tan pronto como haya un cupo disponible.
+    desc_1: Disculpe las molestias, no hay cupos disponibles, si la espera no es un problema para usted, contácteme para reservar un espacio y atenderlo tan pronto como sea posible.
     subtitle_2: Comisiones ABIERTAS
     desc_2: Hay espacios para comisiones disponibles.
     subtitle_3: De Vacaciones, Comisiones CERRADAS
     desc_3: Disculpe las molestias, pronto estaré de regreso, si la espera no es un problema para usted, contácteme para reservar un espacio y atenderlo tan pronto como las comisiones se abran nuevamente.
     subtitle_4: Comisiones CERRADAS
     desc_4: Disculpe las molestias, no habrá espacios para comisiones disponibles hasta nuevo aviso.
-    title_2: ¡Solicite una Comisión!
+    title_2: ¡Click Aqui para Solicitar una Comisión!
     desc: Haga clic aquí para leer mis términos de servicio, licencia de uso y encontrar mis datos de contacto.
   socialmedia:
     title: Redes Sociales
