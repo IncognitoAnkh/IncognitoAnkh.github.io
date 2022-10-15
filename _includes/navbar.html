@@ -1,16 +1,24 @@
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/navbar.css">
+<script async src="/assets/js/navbar.js" crossorigin="anonymous"></script>
 <header class="navbar">
 	<a class="logo" href="{{ site.baseurl_root }}{% t global.url_code %}/">
 		<img class="img_logo" src="{{ site.baseurl_root }}/assets/images/IncognitoAnkhLogo.png"/>
 	</a>
-	<nav class="navbar_buttons">
+	<nav class="navbar_buttons" id="navbar_buttons">
+
 		<a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/">Home</a>
-		<a class="{% if page.url == '/pixelart/' %}active_gold{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">PixelArt</a>
+		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">PixelArt</a>
 		<a class="{% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/incognitoradio/">IncognitoRadio</a>
 		<a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/IncognitoInc/">IncognitoInc</a>
 	</nav>
+
+	 <label class="menubtn" id="menubtn">
+		 <i class="fas fa-bars"></i>
+	 </label>
+	 
 </header>
 <!-- <header class="navbar_space">
 	<nav class="navbar_space_buttons">
 		<a>.</a>
 	</nav>
-</header> -->
+</header> --> 
