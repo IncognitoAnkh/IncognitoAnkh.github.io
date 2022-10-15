@@ -36,8 +36,6 @@ a:active { text-decoration: none; color: #2d214a; }
   margin: 1em;
 }
 
-/*--------------------------------------*/
-
 /*----------------GENERAL---------------*/
 *{
   margin: 0;
@@ -114,7 +112,6 @@ iframe{
   background: transparent;
   width: 100%;
 }
-/*--------------------------------------*/
 
 /*----------------WRAPPER---------------*/
 .wrapper{  
@@ -174,11 +171,13 @@ iframe{
   flex: 1 0 8em;
 }
 
+.flex_doublemini{
+  flex: 1 0 4em;
+}
+
 .flex_micro{
   flex: 0 0 2em;
 }
-
-/*--------------------------------------*/
 
 /*--------------------------------------*/
 .card{
@@ -216,61 +215,10 @@ iframe{
   font-size: 100%;
   color: #dff6f5;
 }
-/*--------------------------------------*/
-
-/*----------------FOOTER----------------*/
-.footer{
-  /* background-color: #333; */
-  background-color: #2d214a;
-  display:flex;
-  width: 100%;
-  min-height: 10vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer a {
-  color: #dff6f5;
-  text-align: center;
-  padding: 0.5em;
-  text-decoration: none;
-  font-size: 1em;
-  line-height: 1em;
-  border-radius: 0.1em;
-}
-  
-.footer a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.gold_active {
-  /* background-color: rgb(141, 0, 49); */
-  background-color: #FFC000;
-  color: black !important;
-}
-
-.c_footer{  
-  padding: 0em;
-  gap: 0em;
-  margin: 0.5em;
-}
-
-.lang_button{  
-  /* background-color: blue;  */
-  padding: 0.5em;
-  display: flex;  
-  flex-flow: wrap; 
-  justify-content: center;
-  gap: 1em;
-  border-radius: 0.5em;
-  margin: 0.5em;
-}
-/*--------------------------------------*/
 
 /*---------------DROPDOWN---------------*/
 
-/*--------------------------------------*/
+/*-------------MEDIA QUERYS-------------*/
 
 @media screen and (max-width: 1408px) {
   #w1{  
@@ -313,3 +261,5 @@ iframe{
     display: block !important;
   }
 }
+
+/*--------------------------------------*/
