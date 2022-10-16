@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: default
 title: pages.main.title
 banner_title: pages.main.banner.title
 banner_subtitle: pages.main.banner.subtitle

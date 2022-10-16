@@ -25,12 +25,12 @@ a:active { text-decoration: none; color: #2d214a; }
   background: radial-gradient(circle, black, transparent);
 }
 
-.quiet{ color: #dff6f5; }
+.quiet{ color: #dff6f5 !important; }
 .highlight{ color: #FFC000 !important; }
 .NO{ color: #FF0000 !important; }
 .YES{ color: #92D050 !important; }
-.justify{ text-align: justify; }
-.centered{ text-align: center; }
+.justify{ text-align: justify !important; }
+.centered{ text-align: center !important; }
 
 .mini_wrapper > h2{
   margin: 1em;

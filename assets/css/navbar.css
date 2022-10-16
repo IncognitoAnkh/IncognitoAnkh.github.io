@@ -61,13 +61,13 @@
 }
 
 .menubtn{
-  font-size: 2.5em;
+  font-size: 2.5em !important;
   color: #fff;
-  float: right;
-  margin-right: 2%;
-  cursor: pointer;
+  float: right !important;
+  margin-right: 2% !important;
+  cursor: pointer !important;
   display: none;
-  z-index: 1000;
+  z-index: 1000 !important;
 }
 
 /*--------------------------------------*/

@@ -1,37 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z94NWZ8PYN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-Z94NWZ8PYN');
-    </script>
-    
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="{{ site.baseurl_root }}/assets/js/{{page.js_file}}.js" type="text/JavaScript"></script>
-    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/default.css">
-    <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/banners/{{ page.banner_css }}.css">
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl_root }}/assets/images/{{ page.favicon }}">
+    {% include common/google_tag.html %}
+    {% include common/head_meta.html %}
 	<title>{% t page.title %}</title>
 </head>
 <body class="main">
-    {% include navbar.html %}
-    <div class="banner">
-        <div class="page_space_top"></div>
-        <h1 class="page_title">{% t page.banner_title %}</h1>
-        <h4 class="page_subtitle">>>> {% t page.banner_subtitle %} <<<</h4>
-        <div class="page_space_bottom"></div>
-    </div>
-    <div class="banner_img">
-    </div>
-    <div class="wrapper" id="main">
-    {{ content }}
-    </div> 
-    {% include footer.html %}
+    {% include modal.html %}
+    {% include common/navbar.html %}
+    {% include common/banner.html %}
+    {% include common/wrapper.html %} 
+    {% include common/footer.html %}
 </body>
 </html>
