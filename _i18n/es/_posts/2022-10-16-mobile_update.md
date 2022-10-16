@@ -5,7 +5,7 @@ favicon: icons/IncognitoAnkhMini_scaled.png
 title:  "¡Actualizacion de los Moviles y los Idiomas!"
 date:   2022-10-16 06:31:00 +0000
 categories: website
-permalink: /2022/10/16/update
+permalink: /2022/10/16/mobile_update
 ---
 <!-- Content -->
 <p class="justify">
