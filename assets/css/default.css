@@ -8,7 +8,7 @@
 
 a{color: orange; text-decoration: none; transition: 0.3s ease-in-out;}
 a:visited { text-decoration: none; color: orange; }
-a:hover { text-decoration: none; color: #dff6f5; transform: scale(1.05);}
+a:hover { text-decoration: none; color: #dff6f5; transform: scale(1.05) !important;}
 a:focus { text-decoration: none; color:orange; }
 a:active { text-decoration: none; color: #2d214a; }
 
@@ -235,15 +235,19 @@ iframe{
 @media screen and (max-width: 768px) {
   .navbar_buttons {
     position: fixed;
-    top: 3.5em; 
-    /* right: 0 !important; */
+    top: 3.78em; 
+    right: 20% !important;
     transition: transform 0.3s;
     transform: translateX(200%);
-    width: 75%;
-    display: flex;
+    width: 50%;
     align-items: center;
+    display: flex;
     flex-direction: column;
-    background-color: #181818;
+  }
+
+  .navbar_buttons div {
+    padding: 0;
+    width: 100%;
   }
 
   .navbar_buttons a {
@@ -254,11 +258,20 @@ iframe{
     font-size: 1.5em;
     line-height: 1em;
     border-radius: 0.1em;
-    width: 100%;
+    display: block;
+    width: 100% !important;
+    background-color: #181818;
   }
 
   .menubtn{
     display: block !important;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+  .navbar_buttons div {
+    padding: 0.5;
   }
 }
 

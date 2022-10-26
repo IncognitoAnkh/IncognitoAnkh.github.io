@@ -4,15 +4,31 @@
 
 <!-- NAVBAR -->
 <header class="navbar">
-	<a class="logo" href="{{ site.baseurl_root }}{% t global.url_code %}/">
+	<a class="navbtn logo" href="{{ site.baseurl_root }}{% t global.url_code %}/">
 		<img class="img_logo" src="{{ site.baseurl_root }}/assets/images/IncognitoAnkhLogo.png"/>
 	</a>
 	<nav class="navbar_buttons" id="navbar_buttons">
 
-		<a class="{% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/">Home</a>
-		<a class="{% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">PixelArt</a>
-		<a class="{% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/incognitoradio/">IncognitoRadio</a>
-		<!-- <a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/IncognitoInc/">IncognitoInc</a> -->
+		<div class="{% if page.url == '/' %}active{% endif %}">
+			<a class="navbtn" href="{{ site.baseurl_root }}{% t global.url_code %}/">Home</a>
+		</div>
+
+		<div class="dropdown">
+			<a class="navbtn {% if page.url == '/pixelart/' or page.url == '/commissions/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">PixelArt</a>
+			 <div class="dropdown-content">
+				<a class="navbtn {% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">Portfolio</a>
+				<a class="navbtn {% if page.url == '/commissions/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/commissions/">Commissions</a>
+			</div>
+		</div>
+
+		<div class="{% if page.url == '/incognitoradio/' %}active{% endif %}">
+			<a class="navbtn" href="{{ site.baseurl_root }}{% t global.url_code %}/incognitoradio/">IncognitoRadio</a>
+		</div>
+
+		<!--<a class="navbtn {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/">Home</a>
+		<a class="navbtn {% if page.url == '/pixelart/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/pixelart/">PixelArt</a>
+		<a class="navbtn {% if page.url == '/incognitoradio/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/incognitoradio/">IncognitoRadio</a>
+		 <a class="{% if page.url == '/incognitoinc/' %}active{% endif %}" href="{{ site.baseurl_root }}{% t global.url_code %}/IncognitoInc/">IncognitoInc</a> -->
 	</nav>
 	<label class="menubtn" id="menubtn">
 		<i class="fas fa-bars"></i>
@@ -26,4 +42,4 @@
 	<nav class="navbar_space_buttons">
 		<a>.</a>
 	</nav>
-</header> --> 
+</header> -->  
