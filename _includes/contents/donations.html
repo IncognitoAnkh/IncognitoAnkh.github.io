@@ -1,9 +1,88 @@
-<a href="https://www.paypal.me/angelvalletm/" class="content" target="_blank" rel="noopener noreferrer">  
-    <div class="card flex_doublemini">
-        <img src="{{ site.baseurl_root }}/assets/images/a_kind_donator.gif">  
+<!-- RESOURCES -->
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/donations.css">
+<script src="https://js.stripe.com/v3/"></script>
+<script async src="/assets/js/stripe.js" crossorigin="anonymous"></script>
+
+<!--  CONTENT  -->
+<div class="content">
+    <div class="card">
+        <a href="https://www.paypal.me/angelvalletm/" class="content" target="_blank" rel="noopener noreferrer">  
+            <div class="card flex_doublemini">
+                <img src="{{ site.baseurl_root }}/assets/images/a_kind_donator.gif">  
+            </div>
+            <div class="card flex_mini">
+                <h2>{% t widgets.donations.title %}</h2>  
+                <p class="quiet">{% t widgets.donations.desc %}</p>  
+            </div>
+        </a>
+
+        <h3 class=""><span style="color: #626CD9;">Stripe</span> Donations</h3>
+        <div class="content">
+            <h4>One Time</h4>
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="payment"
+              data-price-id="price_1LszqQAJhgsGRnFict4ESTpj"
+            >
+              Custom
+            </button>
+            <!-- <button
+            class="flex_doublemini"
+              data-checkout-mode="payment"
+              data-price-id="price_1LszxkAJhgsGRnFiZ7zgoz5B"
+            >
+              $50.00
+            </button> -->
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="payment"
+              data-price-id="price_1Lszw1AJhgsGRnFiyFLLUBtQ"
+            >
+              $5.00
+            </button>
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="payment"
+              data-price-id="price_1LszwTAJhgsGRnFi6XuCFqXW"
+            >
+              $15.00
+            </button>
+
+        </div>
+
+        <div class="content">
+            <h4>Monthly</h4>
+            <!-- <button
+            class="flex_doublemini"
+              data-checkout-mode="subscription"
+              data-price-id="price_1Lt08XAJhgsGRnFiGXTjVuin"
+            >
+              $25.00
+            </button> -->
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="subscription"
+              data-price-id="price_1Lt02tAJhgsGRnFizpWu5DST"
+            >
+              $2.50
+            </button>
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="subscription"
+              data-price-id="price_1Lt07lAJhgsGRnFiz9Dbqel9"
+            >
+              $5.00
+            </button>
+            <button
+            class="flex_doublemini"
+              data-checkout-mode="subscription"
+              data-price-id="price_1Lt082AJhgsGRnFiX1tod1P7"
+            >
+              $10.00
+            </button>
+        </div>
+
+        <div id="error-message"></div>
+
     </div>
-    <div class="card flex_mini">
-        <h2>{% t widgets.donations.title %}</h2>  
-        <p class="quiet">{% t widgets.donations.desc %}</p>  
-    </div>
-</a>
+</div>
