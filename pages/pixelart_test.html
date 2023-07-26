@@ -1,0 +1,73 @@
+---
+layout: default
+permalink: /pixelart_test/
+title: pages.pixelart.title
+banner_title: pages.pixelart.banner.title
+banner_subtitle: pages.pixelart.banner.subtitle
+banner_css: pixelart
+favicon: icons/IncognitoAnkhMini_scaled.png
+---
+<!-- Load -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flickity@2.2.1/dist/flickity.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flickity@2.2.1/dist/flickity.pkgd.min.js"></script>
+
+<!-- Content -->
+<div class="mini_wrapper flex_secondary" id="w1">
+    {% include contents/donations.html %}
+</div>
+
+<div class="mini_wrapper flex_principal" id="w2"> 
+    <h2 class="">TEST</h2> 
+    <div class="gallery-wrapper content">
+        <div class="gallery-carousel">
+            <div class="card flex_default gallery_item">
+                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/1.png">  
+            </div>
+            <div class="card flex_default gallery_item">
+                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/2.png">  
+            </div>
+            <div class="card flex_default gallery_item">
+                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/3.png">  
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+            // Initialize flickity gallery carousel
+            var $carousel = $('.gallery-carousel').flickity({
+                // Set options for carousel behavior
+                draggable: '>1',
+                prevNextButtons: true,
+                pageDots: true,
+                wrapAround: true,
+                autoPlay: false,
+                pauseAutoPlayOnHover: true
+            });
+    </script>
+
+    <style>
+        .gallery-cell { width:100% !important }
+        .gallery-carousel {
+            width: 100%;
+            height: 300px; /*set a specific height*/
+        }
+        .flickity-slider {
+            display: block !important;
+        }
+
+        .flickity-enabled {
+            position: relative !important;
+        }
+
+        .flickity-viewport {
+            height: 300px;
+        }
+
+    </style>
+</div>
+
+<div class="mini_wrapper flex_secondary" id="w3"> 
+    {% include contents/archive.html %}
+</div>
