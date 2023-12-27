@@ -13,7 +13,7 @@ Finally, after a long period of planning, a series of useful and essential funct
 </p>
 
 <div class="card flex_default gallery_item">
-    <img src="{{ site.baseurl_root }}/assets/images/banners/main.png">  
+    <img src="{{ site.baseurl_root }}/assets/images/icons/monolith.png">  
     <p>Main Banner</p>  
 </div>
 

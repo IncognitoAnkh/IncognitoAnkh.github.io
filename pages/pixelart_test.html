@@ -8,66 +8,144 @@ banner_css: pixelart
 favicon: icons/IncognitoAnkhMini_scaled.png
 ---
 <!-- Load -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flickity@2.2.1/dist/flickity.min.css">
-<script src="https://cdn.jsdelivr.net/npm/flickity@2.2.1/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/gallery.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 
 <!-- Content -->
 <div class="mini_wrapper flex_secondary" id="w1">
+    {% include contents/request_commission.html %}
     {% include contents/donations.html %}
-</div>
+</div>  
 
 <div class="mini_wrapper flex_principal" id="w2"> 
-    <h2 class="">TEST</h2> 
-    <div class="gallery-wrapper content">
-        <div class="gallery-carousel">
-            <div class="card flex_default gallery_item">
-                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/1.png">  
-            </div>
-            <div class="card flex_default gallery_item">
-                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/2.png">  
-            </div>
-            <div class="card flex_default gallery_item">
-                <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/3.png">  
-            </div>
-        </div>
+    <h2 class="">GUI Related Works</h2> 
+    <!-- Filters -->
+    <div class="filters filter-button-group">
+        <ul>
+            <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+            <li><a href="javascript:void(0);" data-filter="bike">Bike</a></li>
+            <li><a href="javascript:void(0);" data-filter="bus">Bus</a></li>
+            <li><a href="javascript:void(0);" data-filter="car">Car</a></li>
+        </ul>
     </div>
 
-    <script type="text/javascript">
+    <!-- Galeria -->
+    <div id="container" class="content isotope">  
+            <div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+            </a>
+            <div class="overlay">Bike</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1x1Ci8s3_dKgRVqqRfDao52wLqGoumKdB&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1x1Ci8s3_dKgRVqqRfDao52wLqGoumKdB&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Izd6KrrgNXGmAV7QgQRpd7WTM-AfkE6x&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1Izd6KrrgNXGmAV7QgQRpd7WTM-AfkE6x&export=download">
+            </a>
+            <div class="overlay">Bike</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+            </a>
+            <div class="overlay">Bike</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
+            </a>
+            <div class="overlay">Bus</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
+            </a>
+            <div class="overlay">Bus</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bus">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
+            </a>
+            <div class="overlay">Bus</div>
+            </div>
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="bike">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
+            </a>
+            <div class="overlay">Bike</div>
+            </div>
+            
+            
+            <div class="grid-item" data-filter="car">
+            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
+            <img src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
+            </a>
+            <div class="overlay">Car</div>
+            </div>
+    </div>
 
-            // Initialize flickity gallery carousel
-            var $carousel = $('.gallery-carousel').flickity({
-                // Set options for carousel behavior
-                draggable: '>1',
-                prevNextButtons: true,
-                pageDots: true,
-                wrapAround: true,
-                autoPlay: false,
-                pauseAutoPlayOnHover: true
-            });
-    </script>
+    <!-- Paginator -->
+    <div class="isotope-pager" style="padding-top: 15px; text-align:center;"></div>
+</div>  
 
-    <style>
-        .gallery-cell { width:100% !important }
-        .gallery-carousel {
-            width: 100%;
-            height: 300px; /*set a specific height*/
-        }
-        .flickity-slider {
-            display: block !important;
-        }
+<div class="mini_wrapper flex_secondary" id="w3">  
+    {% include contents/pixelart_portfolio.html %} 
+    {% include contents/mcmodels.html %} 
+</div>  
 
-        .flickity-enabled {
-            position: relative !important;
-        }
-
-        .flickity-viewport {
-            height: 300px;
-        }
-
-    </style>
-</div>
-
-<div class="mini_wrapper flex_secondary" id="w3"> 
-    {% include contents/archive.html %}
-</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+<script src="{{ site.baseurl_root }}/assets/js/gallery.js"></script>

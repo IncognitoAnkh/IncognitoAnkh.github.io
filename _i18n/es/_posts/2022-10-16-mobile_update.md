@@ -13,7 +13,7 @@ Finalmente despues de un largo periodo de planeacion finalmente han sido impleme
 </p>
 
 <div class="card flex_default gallery_item">
-    <img src="{{ site.baseurl_root }}/assets/images/banners/main.png">  
+    <img src="{{ site.baseurl_root }}/assets/images/icons/monolith.png">  
     <p>Main Banner</p>  
 </div>
 

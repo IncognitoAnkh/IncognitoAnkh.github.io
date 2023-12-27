@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(".gallery_item img");
+/* const images = document.querySelectorAll(".gallery_item img");
 let imgIndex
 let imgSrc;
 // get images src onclick
@@ -75,4 +75,4 @@ let prevImg = () => {
 
     //return src of previous image
     return images[imgIndex].src.replace("thumbnails", "full");
-}
+} */
