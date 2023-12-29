@@ -186,6 +186,10 @@ iframe{
   flex: 1 0 8em;
 }
 
+.flex_intermini{
+  flex: 1 0 6em;
+}
+
 .flex_doublemini{
   flex: 1 0 4em;
 }
