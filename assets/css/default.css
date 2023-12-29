@@ -50,6 +50,7 @@ a:active { text-decoration: none; color: #2d214a; }
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -177,6 +178,10 @@ iframe{
   flex: 1 0 14em;
 }
 
+.flex_medium{
+  flex: 1 0 18em;
+}
+
 .flex_mini{
   flex: 1 0 8em;
 }
@@ -195,6 +200,20 @@ iframe{
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 1em;
+  padding: 0.5em;
+  /* background-color: red; */
+  min-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.card2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   gap: 1em;
   padding: 0.5em;
   /* background-color: red; */

@@ -11,74 +11,42 @@ favicon: icons/IncognitoAnkhMini_scaled.png
 
 <!-- Content -->
 <div class="mini_wrapper flex_secondary" id="w1"> 
+    {% include contents/request_commission.html %}
     {% include contents/donations.html %}
 </div>
 
 <div class="mini_wrapper flex_principal" id="w2"> 
-    {% include contents/request_commission.html %}
-    <h2 class="">GUI Related Works</h2> 
-    <div class="content">  
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/2.png">  
-            <p>Misc GUIs</p>  
+    <div class="content">
+        <div class="card flex_mini">
+            <h2>PixelArt Portfolio</h2>  
+            <p class="quiet">Quick look to IncognitoAnkh's pixel art creations.</p>  
         </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/3.png">  
-            <p>Misc GUIs</p>  
-        </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/guis/4.png">  
-            <p>Misc GUIs</p>  
+        <div class="card flex_doublemini">
+            <img src="{{ site.baseurl_root }}/assets/images/portrait.png">
         </div>
     </div>
-    <h2 class="">Items, Icons, Tiles and Misc. Assets</h2>   
-    <div class="content">  
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/tiles/thumb22.png">
-            <p>Tiles</p>  
-        </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/icons/thumb16.png">
-            <p>Icons and Items</p>  
-        </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/misc/thumb14.png">
-            <p>Misc Assets</p>  
-        </div> 
-    </div>
-    <h2 class="">Illustrations</h2>
-    <div class="content">  
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/illustrations/thumb17.png">
-            <p>Misc Illustrations</p>  
-        </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/illustrations/thumb18.png">
-            <p>Misc Illustrations</p>  
-        </div>
-        <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/illustrations/thumb19.png"> 
-            <p>Misc Illustrations</p>  
-            <p>~for xNestorio~</p> 
-        </div>  
-    </div>
-    <h2 class="">Animated</h2> 
+    <h2 class="">Featured</h2> 
     <div class="content">
         <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/anims/anim0.gif"> 
-            <p>Misc Animated Items</p> 
+            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/illustrations/3.png"> 
+            <p>Misc. prompt illustrations</p> 
+            <p>~for xNestorio~</p> 
         </div>
         <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/anims/anim12.gif"> 
+            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/anims/13.gif"> 
             <p>Animated Avatar</p> 
             <p>~for SrLoboRebirthx~</p> 
         </div>
         <div class="card flex_default gallery_item">
-            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/anims/anim11.gif"> 
+            <img src="{{ site.baseurl_root }}/assets/images/portfolio/thumbnails/anims/12.gif"> 
             <p>Stream Alert</p> 
             <p>~for Ionprime~</p> 
         </div>
     </div>
+    <h2 class="">Project Gallery</h2> 
+    <div class="content" id="image-gallery" gallery-list="{{ site.baseurl_root }}/assets/json/gallery_items.json">
+        {% include image_gallery.html %}
+    </div>  
     <h2 class="">Archive</h2> 
     {% include contents/archive.html %}
 </div>  

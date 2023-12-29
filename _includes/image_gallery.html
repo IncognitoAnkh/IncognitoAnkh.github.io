@@ -1,5 +1,98 @@
+<!-- Estilos. -->
+<style>
+/*Image Gallery*/
+.filters > button, .pagination-container > button{
+  background-color: #181818;
+  color: #dff6f5;
+  text-align: center
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: calc(100% - 180px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  position:absolute;
+  top:15px;
+  right:35px;
+    color: #dff6f5;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.close:hover,
+.close:focus {
+    color:#999;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  color: #dff6f5;
+  font-size: 3em;
+  font-weight: bold;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.left-arrow {
+  left: 5%;
+}
+
+.right-arrow {
+  right: 5%;
+}
+
+#caption {
+  margin-top: 2.5%;
+}
+</style>
+
+<!-- HTML -->
+<div id="filters" class="content filters">
+<!-- We will add filter buttons dynamically via JavaScript. -->
+</div>
+
+<div id="gallery-grid" class="content gallery-grid">
+<!-- We will add the gallery images dynamically via JavaScript. -->
+</div>
+
+<div id="pagination" class="content pagination-container">
+<!-- We will add pagination controls dynamically via JavaScript. -->
+</div>
+
+<!-- Modal. -->
+<div id="image-modal" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+</div>
+
+<!-- JavaScript. -->
+<script>
 // Your array of project data: name, image URL, category
-/* import { projectData } from './gallery_items.js' */
 const galleryList = document.getElementById("image-gallery").getAttribute("gallery-list");
 let projectData = [];
 
@@ -197,4 +290,4 @@ function getFilteredData() {
       ? projectData
       : projectData.filter(project => project.category === currentCategory);
 }
-
+</script>
