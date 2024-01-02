@@ -1,0 +1,19 @@
+/* Buttons and links */
+button {
+  font-family: IncognitoInc;
+  background-color: #FFC000;
+  color: black;
+  padding: 0.25em !important;
+  text-decoration: none !important;
+  border-radius: 0.1em !important;
+  cursor: pointer !important;
+  /*  line-height: 1em !important; */
+  font-size: 1.0em !important;
+  text-align: center !important;
+}
+
+button:hover{
+  color: black !important;
+  background-color: #dff6f5 !important;
+  z-index: 1000 !important;
+}

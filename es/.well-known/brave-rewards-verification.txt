@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: incognitoankh.com
+Token: ecfbb2c10bfbe5416869049bba193754eb927252131adb99e2bfc2f6f1f5e05c
