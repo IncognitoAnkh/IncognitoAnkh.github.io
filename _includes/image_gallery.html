@@ -86,7 +86,7 @@
 <!-- Modal. -->
 <div id="image-modal" class="modal">
     <span class="close">×</span>
-    <img class="modal-content" id="modal-img">
+    <img draggable="false" class="modal-content" id="modal-img">
     <div id="caption"></div>
 </div>
 
@@ -122,7 +122,7 @@ function execFunctions() {
 	for (const project of data) {
 	  const imgWrapper = document.createElement('div');
 	  imgWrapper.setAttribute('class', 'card flex_medium');
-	  imgWrapper.innerHTML = `<img src="${project.imageUrl}" alt="${project.name}">`;
+	  imgWrapper.innerHTML = `<img draggable="false" src="${project.imageUrl}" alt="${project.name}">`;
 	  imgWrapper.addEventListener('click', () => showModal(project.imageUrl, project.name));
 	  grid.appendChild(imgWrapper);
 	}
