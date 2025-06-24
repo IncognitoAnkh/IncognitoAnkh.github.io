@@ -1,4 +1,4 @@
-// Your array of project data: name, image URL, category
+//  Array of project data: name, image URL, category
 /* import { projectData } from './gallery_items.js' */
 const galleryList = document.getElementById("image-gallery").getAttribute("gallery-list");
 let projectData = [];
@@ -7,19 +7,17 @@ fetch(galleryList)
     .then(response => response.json())
     .then(data => {
         projectData = data.projectData;
-        execFunctions(); // A new function to execute all gallery-related functions
+        execFunctions(); // Function to execute all gallery-related functions
     });
 
 function execFunctions() {
-    // Place all your gallery-function calls previously
-    // outside fetch() here, e.g., createCategoryFilters(), filterByCategory(), etc.
 	createCategoryFilters();
 	filterByCategory();
 	createPaginationControls();
 }
 
   let currentPage = 1;
-  const itemsPerPage = 12; // You can change this value
+  const itemsPerPage = 12;
   let currentCategory = 'All';
   
   function createImageGrid(data) {
