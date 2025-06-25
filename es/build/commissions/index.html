@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z94NWZ8PYN"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-Z94NWZ8PYN');
+</script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/default.css">
+<link rel="stylesheet" href="/assets/css/banners/pixelart.css">
+<link rel="icon" type="image/x-icon" href="/assets/images/icons/IncognitoAnkhMini_scaled.png">
+	<title>IncognitoAnkh - Commissions</title>
+</head>
+<body class="main">
+   
+    <!-- STYLES -->
+<style>
+  .navbar {
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    /*left: 0px;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(51, 51, 51, 1); */
+    background-color: #181818;
+  }
+
+  .navbar_space {
+    width: 100%;
+    background-color: red;
+  }
+    
+  .logo{
+    vertical-align: middle;
+  }
+    
+  .img_logo{
+    width: 100%;
+    height: auto;
+    max-height: 1.5em;
+  }
+
+  .navbtn{
+    padding: 0.5em !important;
+    text-decoration: none !important;
+    border-radius: 0.1em !important;
+    cursor: pointer !important;
+    line-height: 1em !important;
+    font-size: 1.5em !important;
+    color: #dff6f5 !important;
+    text-align: center !important;
+  }
+
+
+  .navbar_buttons, .navbar_space_buttons{
+    display: flex;
+  }
+
+  /* .navbar a:hover{ */
+  .navbtn:hover{
+    color: black !important;
+    background-color: #dff6f5 !important;
+    z-index: 1000 !important;
+  }
+
+  .navbtn:hover a{
+    color: black !important;
+    z-index: 1000 !important;
+  }
+    
+  .active, .active a {
+    /* background-color: rgb(141, 0, 49); */
+    background-color: #2d214a !important;
+  }
+
+  /* New Navbar */
+  .hide{
+    display: none;
+  }
+
+  .menu_show{
+    transform: translateX(35%) !important;
+  }
+
+  .menubtn{
+    font-size: 2.5em !important;
+    color: #dff6f5;
+    float: right !important;
+    margin-right: 2% !important;
+    cursor: pointer !important;
+    display: none;
+    z-index: 1000 !important;
+  }
+
+  /*--------------------------------------*/ 
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    padding-top: 1em;
+    right: 0;
+  }
+
+  .dropdown-content a{
+    background-color: #181818;
+    display: block;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block !important;
+  }
+</style>
+
+<!-- RESOURCES -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- NAVBAR -->
+<header class="navbar">
+	<a class="navbtn logo" href="/">
+		<img draggable="false" class="img_logo" src="/assets/images/IncognitoAnkhLogo.png">
+	</a>
+	<nav class="navbar_buttons" id="navbar_buttons">
+
+		<div class="">
+			<a class="navbtn " href="/">Home</a>
+		</div>
+
+		<div class="dropdown">
+			<a class="navbtn active">PixelArt</a>
+			<div class="dropdown-content">
+				<a class="navbtn " href="/pixelart/">Portfolio</a>
+				<a class="navbtn active" href="/commissions/">Commissions</a>
+			</div>
+		</div>
+
+		<div class="">
+			<a class="navbtn " href="/incognitoradio/">IncognitoRadio</a>
+		</div>
+	</nav>
+	<label class="menubtn" id="menubtn">
+		<i class="fa fa-bars"></i>
+	</label>
+	 
+</header>
+
+<!-- SCRIPTS -->
+<script>
+  const toggleMenuElement = document.getElementById('menubtn');
+  const mainMenuElement = document.getElementById('navbar_buttons');
+
+  toggleMenuElement.addEventListener('click', () => {
+      mainMenuElement.classList.toggle('menu_show');
+      toggleMenuElement.classList.toggle('highlight');
+  });
+</script>
+    <div class="banner">
+    <div class="page_space_top"></div>
+    
+    <div class="banner_info">
+        <h1 class="page_title">Pixel Art Commissions</h1>
+        <h4 class="page_subtitle">&gt;&gt;&gt; Terms of service, license and illustrative pricing for IncognitoAnkh's direct pixel art commissions. &lt;&lt;&lt;</h4>
+    </div>
+    <div class="page_space_bottom"></div>
+</div>
+<div class="banner_img"></div>
+    <div class="wrapper" id="main">
+    <!-- Load -->
+
+<!-- Content -->
+<div class="wrapper" id="main">  
+    <div class="mini_wrapper flex_secondary" id="w1"> 
+        <a href="/commissions/" class="content">  
+    <div class="card flex_doublemini">
+        <img draggable="false" src="/assets/images/BrunoCoin1120.png">
+		<h2>Click Here to Request a Commission!</h2>  
+    </div>
+    <div class="card flex_mini">
+		<h3 class="YES">Commissions OPEN</h3> 
+		<p>Commission slots are available..</p>
+
+		<!-- <h3 class="NO">Overbooked, Commissions CLOSED</h3> 
+		<p class="quiet">Sorry for the inconvenience, there are no slots available, if the wait is not a problem for you, contact me to reserve a space and attend you as soon as possible.</p> -->
+
+		<!-- <h3 class="NO">On Vacation, Commissions CLOSED</h3> 
+		<p class="quiet">Sorry for the inconvenience, I'll be back soon, if the wait is not a problem for you, contact me to reserve a space and assist you as soon as the commissions open again.</p> -->
+
+		<!-- <h3 class="NO">Commissions CLOSED</h3> 
+		<p class="quiet">Sorry for the inconvenience, no commission slots will be available until further notice.</p> -->
+    </div>
+</a>      
+        <!-- RESOURCES -->
+<link rel="stylesheet" href="/assets/css/donations.css">
+<script src="https://js.stripe.com/v3/"></script>
+<!-- <script async src="/assets/js/stripe.js" crossorigin="anonymous"></script> -->
+
+<!--  CONTENT  -->
+        <div class="content">  
+            <div class="card flex_doublemini">
+                <img draggable="false" src="/assets/images/a_kind_donator.gif">  
+            </div>
+            <div class="card flex_mini">
+                <h2>Support</h2>  
+                <p class="quiet">If you really like my projects a lot, you can help me to continue.</p> 
+                <a href="https://www.paypal.me/angelvalletm/" target="_blank" rel="noopener noreferrer"> 
+                  <h3 class="">
+<span style="color: #0070C0;">Pay</span><span style="color: #00B0F0;">Pal</span> Donations</h3>
+                </a> 
+                <a href="https://buy.stripe.com/bIYdTK8Tb3Fybio7ss" target="_blank" rel="noopener noreferrer">
+                  <h3 class="">
+<span style="color: #626CD9;">Stripe</span> Donations</h3>
+                </a> 
+                <div id="error-message"></div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="mini_wrapper flex_principal" id="w2">  
+        <div class="content">  
+            <div class="card flex_default">
+                <h2 class="highlight">-Terms of Service-</h2>
+                <p>Applied only to <span class="highlight">direct</span> commissions.</p>
+                <p class="highlight">If you request a commission, I will assume that you have read and agree to the following terms.</p> 
+                <p>In the following terms of service, the word "commissioner" is used to refer to the person who requests the service and "artist" to the person who offers said service (IncognitoAnkh).</p>
+            </div>
+        </div>
+        <div class="content">  
+            <div class="card flex_default">
+                <h2 class="highlight">Workflow</h2>  
+                <p class="highlight">Payment &gt; First Version &gt; Revisions &gt; Final Delivery</p>
+                <p class="justify">
+                    • All my commissions are delivered “as soon as possible” depending on workload.<br>
+                    • I take feedback throughout the project to have the product correctly at the final delivery.<br>
+                    • The "Revisions" step can be repeated until you are satisfied with the product at no additional cost, as long as the complexity and number of revisions is fair to both parties <span class="NO">(no drastic changes such as redoing the product)</span>.<br>
+                    • Orders will be made in queue order and delivery priority.
+                </p> 
+            </div>
+        </div>
+        <div class="content">  
+            <div class="card flex_default">
+                <h2 class="highlight">Payments</h2>  
+                <p>Payments can be made through <span style="color: #0070C0;">Pay</span><span style="color: #00B0F0;">Pal</span> or <span style="color: #626CD9;">Stripe</span> either in advance or in halves:</p>
+                <p class="justify">
+                    • I will start working once at least the first half of the project price is paid.<br>
+                    • I will send you a preview each time i make substantial progress for feedback. If you paid full price up front, you can also request earlier versions of the product to try it out for yourself without waiting for final delivery.<br>
+                    • I will deliver the final product once the total price of the commission has been paid.<br>
+                    • During the 7 days following the final delivery you can request an extra revision for small adjustments at no additional cost.<br>
+                    <br>
+                    <span class="highlight">Dedicated Works</span><br>
+                    • Aimed at people or teams that need my services as close as possible, such as game development teams or large projects with many required assets, payment and workflow to be discussed.
+                </p> 
+            </div>
+        </div>
+        <div class="content">  
+            <div class="card flex_default">
+                <h2 class="highlight">License</h2>  
+                <p class="justify">
+                    By paying the full price of a Commission you are acquiring a personal license for the use of the requested product that allows you to:<br>
+                    <br>
+                    • <span class="YES">Use the product for commercial purposes as long as it is integrated into another project which may include, but is not limited to, video games, Video game addons and mods, resource packs, printed products, videos, live streams, advertisements, emotes, profile pictures, and social media banners.</span><br>
+                    • <span class="YES">Have exclusivity over the commissioned content, the commissioned piece is made solely and exclusively to fulfill the purposes of the commissioner and the artist, so it will not be resold or redistributed by me to other potential clients, however i still have the right to use the commissioned content for specific purposes related to self-promotion which may include, but are not limited to, self-advertising, live streaming, video, and portfolio.</span><br>
+                    • <span class="YES">Use the product for personal purposes.</span><br>
+                    • <span class="YES">Distribute the product for free.</span><br>
+                    <br>
+                    You are not authorized to:<br>
+                    • <span class="NO">Claim to be the creator of the product, you must always properly credit IncognitoAnkh.</span><br>
+                    • <span class="NO">Resell the commissioned content by itself or with very slight modifications / edits, either individually or in asset packs.</span><br>
+                    • <span class="NO">Create NFTs with the product.</span><br>
+                    <br>
+                    I am always open to negotiate the above terms for specific cases. <br>
+                    Violating the agreements established in this license results in the application of the same penalties applied to refunds, but without the right to be eligible for a refund.
+                </p> 
+            </div>
+        </div>
+        <div class="content">  
+            <div class="card flex_default">
+                <h2 class="highlight">Refund and Cancelation Policy</h2>  
+                <p class="justify">
+                    • By requesting a refund you agree to lose the use license, as well as all exclusivity rights over the commissioned content, all elements linked exclusively to the commissioner including but not limited to logos, original characters or brand and project secrets will be removed from the piece. preserving only everything that could be considered original or generic at the discretion of the artist, said material already purged of proprietary elements of the commissioner will become free to use for the artist and he may or may not use it for the purposes that are most convenient for him (the artist).
+                    <br>
+                    • A refund of an already finished commission cannot be requested, only active commissions are eligible.
+                </p> 
+            </div>
+        </div>
+        <div class="content">  
+            <div class="card flex_principal">
+                <h2 class="highlight">Pricing</h2>
+                <p class="justify">
+                    The prices shown below are represented in USD, the quantities are for illustrative reference only and may vary depending on the specifications and budget of your specific project.
+                </p>
+            </div>
+            <div class="card flex_secondary gallery_item">
+                <h2 class="highlight">GUI related works</h2> 
+                <img draggable="false" src="/assets/images/portfolio/thumbnails/guis/2.png">
+                <p class="centered">
+                    Useful for any GUI / HUD related work like, buttons, bars, sliders, hotbars, boss bars, HP bars, whole screen menus with simple background, pop up menus, floating windows, Minecraft Inventory Menus and much more.<br>
+                    <br>
+                    • Small elements and buttons --------------------------- $15.00 ea.<br>
+                    • Widgets and Extra Screens ---------------------------- $35.00 ea.<br>
+                    • Complex and Full Screens ------------------------------- $70.00 ea.<br>
+                    <br>
+                    Upscaled asset versions included if requested, banner / illustration backgrounds are not included (Please refer to "Illustrations" section).
+                </p>  
+            </div>
+            <div class="card flex_secondary gallery_item">
+                <h2 class="highlight">Sprites &amp; Icons</h2>
+                <img draggable="false" src="/assets/images/portfolio/thumbnails/icons/3.png">  
+                <p class="centered">
+                    Perfect for Items, Icons, Tiles, Emotes, Badges, Stickers and any small Misc. assets up to...<br>
+                    <br>
+                    • 16px ------------------------------------------------- $2.50 ea.<br>
+                    • 32px ------------------------------------------------- $5.00 ea.<br>
+                    • 64px ------------------------------------------------- $10.00 ea.
+                    <br>
+                    Upscaled asset versions included if requested, animations not included.
+                </p>  
+            </div>
+            <div class="card flex_secondary gallery_item">
+                <h2 class="highlight">Illustrations</h2>
+                <img draggable="false" src="/assets/images/portfolio/thumbnails/illustrations/1.png">  
+                <p class="centered">
+                    Perfect for videogame backgrounds, banners, complex characters/figures and big Misc. assets up to...<br>
+                    <br>
+                    • 128x128 px Background, ---------------------------- $25.00 ea.<br>
+                    • 256x256 px Background, --------------------------- $45.00 ea.<br>
+                    • 512x512 px Background, --------------------------- $85.00 ea.<br>
+                    <br>
+                    Each Package include up to 2 figure (Character/Detailed object) and upscaled asset versions if requested, animations not included <br>
+                    <br>
+                    • Extra Figure ---------------------------------------------- $15.00 ea.<br>
+                </p> 
+            </div>
+            <div class="card flex_secondary">
+                <h2 class="highlight">Extras</h2>
+                <img draggable="false" src="/assets/images/MondongoTicket1120.png">  
+                <p class="centered">
+                    Some small addons that can be added to some of the services listed above to increase their potential, like...<br>
+                    <br>
+                    • Recolor ------------------------- 1/4 of the Original asset price ea.<br>
+                    • Animation ----------- Highly depends on complexity an frames.<br>
+                    • Extra Fast Delivery Priority ---- 2x project price
+                </p> 
+            </div>
+        </div>
+
+        <h2 class="">Request a Commission!</h2>
+        <div class="content">  
+            <div class="card flex_principal">
+                <!-- <img draggable="false" src="/assets/images/portrait.png"> -->  
+                <h2 class="highlight">Contact</h2>  
+                <p>This are the options to request me a commission.</p>  
+            </div>
+            <a href="https://www.fiverr.com/ankhasmodeus" class="card flex_default" target="_blank" rel="noopener noreferrer">
+                <h2>Fiverr</h2> 
+                <img draggable="false" src="/assets/images/icons/fiverr.png">  
+                <p class="quiet">You can request commissions through Fiverr by clicking here!, is my main commission platform so i am quick replying on it (24hrs max). (Due the platform's TOS, any project handled through Fiverr may have a different set of prices and conditions than the ones displayed on this page).</p>  
+            </a>
+            <div class="card flex_default">
+                <h2>Social Media</h2> 
+                <img draggable="false" src="/assets/images/icons/instagram.png"> 
+                <p class="quiet">You can contact me trough my social media, to request a direct commission (Since are a multipurpose accounts the replying time may be slower).</p>  
+            </div>
+        </div> 
+    </div>  
+
+    <div class="mini_wrapper flex_secondary" id="w3">  
+        <a href="/pixelart/" class="content">  
+    <div class="card flex_mini">
+        <h2>PixelArt Portfolio</h2>  
+        <p class="quiet">Quick look to IncognitoAnkh's pixel art creations.</p>  
+    </div>
+    <div class="card flex_doublemini">
+		<img draggable="false" src="/assets/images/portrait.png">
+    </div>
+</a>
+    </div>  
+</div> 
+
+</div> 
+    <!-- RESOURCES -->
+<link rel="stylesheet" href="/assets/css/footer.css">
+
+<!-- FOOTER -->
+<footer class="footer mini_wrapper flex_principal">
+	<div class="content remove-border remove-background">
+		<div class="flex_default">
+			<div class="content remove-border remove-background c_footer">
+				<a class="lang_button gold_active" href="https://incognitoankh.com/commissions/"><img class="emoji" title=":gb:" alt=":gb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png" height="20" width="20"> English</a>
+				<a class="lang_button " href="https://incognitoankh.com/es/commissions/"><img class="emoji" title=":mexico:" alt=":mexico:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f2-1f1fd.png" height="20" width="20"> Spanish</a>
+			</div>
+			<div class="content remove-border remove-background c_footer">
+				<a href="https://www.youtube.com/channel/UCxK-cqbwU3nLcyxA6TXBQhQ" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/youtube.png">
+				</a>
+				<a href="https://www.twitch.tv/incognitoankh" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/twitch.png">
+				</a>
+				<a href="https://kick.com/incognitoankh" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/x.png">
+				</a>
+				<a href="https://odysee.com/@IncognitoAnkh" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/x.png">
+				</a>
+				<a href="https://www.instagram.com/incognito.ankh/" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/instagram.png">
+				</a>
+				<a href="https://twitter.com/IncognitoAnkh" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/twitter.png">
+				</a>
+				<a href="https://www.facebook.com/IncognitoAnkh" class="flex_micro" target="_blank" rel="noopener noreferrer">
+					<img draggable="false" src="/assets/images/icons/facebook.png">
+				</a>
+			</div>
+			<div class="content remove-border remove-background c_footer">
+				<h4>© 2022 IncognitoAnkh. All Rights Reserved.</h4>
+			</div>
+		</div>
+	</div>
+</footer> 
+
+
+
+		<!-- 
+			
+			<a href="es/commissions/" >:mexico: Spanish</a>
+		 -->
+</body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://incognitoankh.com/es/feed.xml" rel="self" type="application/atom+xml" /><link href="https://incognitoankh.com/es/" rel="alternate" type="text/html" hreflang="es" /><updated>2025-06-25T03:33:48+00:00</updated><id>https://incognitoankh.com/es/feed.xml</id><title type="html">IncognitoAnkh</title><subtitle>Official website for projects related to IncognitoAnkh, such as Pixel Art Commissions, Streaming, and Minecraft servers. Property of Incognito Inc.</subtitle><entry><title type="html">¡Actualizacion de los Moviles y los Idiomas!</title><link href="https://incognitoankh.com/es/2022/10/16/mobile_update" rel="alternate" type="text/html" title="¡Actualizacion de los Moviles y los Idiomas!" /><published>2022-10-16T06:31:00+00:00</published><updated>2022-10-16T06:31:00+00:00</updated><id>https://incognitoankh.com/es/2022/10/16/mobile_update</id><content type="html" xml:base="https://incognitoankh.com/es/2022/10/16/mobile_update"><![CDATA[<!-- Content -->
+<p class="justify">
+Finalmente despues de un largo periodo de planeacion finalmente han sido implementados en incognitoankh.com una serie de utiles y esenciales funcionalidades entre ellas 2 muy resaltables, el soporte para dispositivos moviles y el soporte multi lenguaje. 
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="/assets/images/icons/monolith.png" />  
+    <p>Main Banner</p>  
+</div>
+
+<!--more-->
+<p class="justify"> 
+<span class="highlight">Soporte Movil:</span>
+<br />
+<br />
+* Finalmente se termino de implementar el soporte completo para moviles, se arreglaron bugs de responsividad y se implemente el menu desplegable, lo cual permite navegar con mayor facilidad usando dispositivos en modo retrato.
+<br />
+<br />
+<span class="highlight">Soporte Multi Lenguaje:</span>
+<br />
+<br />
+* Se implemento el soporte multilenguaje lo cual te permite alternar entre ingles y español presionando los botones correspondiente en el pie de pagina, una vez seleccionado el idioma todos los enlaces de la pagina te redireccionaran a sus versiones en el idioma elegido.
+<br />
+Nota: Existen secciones de la pagina que aun no han sido traducidas, sin embargo la traduccion sera completada poco a poco.
+</p>]]></content><author><name></name></author><category term="website" /><summary type="html"><![CDATA[Finalmente despues de un largo periodo de planeacion finalmente han sido implementados en incognitoankh.com una serie de utiles y esenciales funcionalidades entre ellas 2 muy resaltables, el soporte para dispositivos moviles y el soporte multi lenguaje. Main Banner]]></summary></entry><entry><title type="html">Bienvenido a IncognitoAnkh.com!</title><link href="https://incognitoankh.com/es/2022/06/25/welcome" rel="alternate" type="text/html" title="Bienvenido a IncognitoAnkh.com!" /><published>2022-06-25T01:10:00+00:00</published><updated>2022-06-25T01:10:00+00:00</updated><id>https://incognitoankh.com/es/2022/06/25/welcome</id><content type="html" xml:base="https://incognitoankh.com/es/2022/06/25/welcome"><![CDATA[<!-- Content -->
+<p class="justify">
+En este sitio web podrás encontrar todo lo relacionado a diferentes proyectos creados por mí o en los que participo así como recomendaciones, la página actualmente se encuentra en construcción, sin embargo se realizaron algunas actualizaciones importantes como la creación de esta sección de noticias, aquí estarás informado sobre noticias importantes relacionadas con los diferentes proyectos y la propia página.
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="/assets/images/banners/main.png" />  
+    <p>Banner Principal</p>  
+</div>
+
+<!--more-->
+<p class="justify">
+<span class="highlight">Actualizaciones:</span>
+<br />
+<br />
+* Los enlaces a las redes sociales se han combinado en un solo widget para que no ocupen demasiado espacio.
+<br />
+<br />
+* Se agregó un vistazo rápido a mis tweets.
+<br />
+<br />
+* Se agregó a la pantalla principal una sección dedicada a las entradas recientes del blog (Noticias), mostrará una breve descripción de cada una, haciendo clic en sus títulos te llevará a la entrada en cuestión para verla en su totalidad.
+<br />
+<br />
+* Añadidos enlaces dedicados a cada miembro, colaborador y recomendado en la sección IncognitoRadio.
+<br />
+<br />
+<br />
+<span class="highlight">Planes Futuros:</span>
+<br />
+<br />
+* Agregar soporte multilenguaje, esto con el fin de evitar tener páginas con diferentes idiomas y mantener cierta uniformidad.
+<br />
+<br />
+* Menú de la barra de navegación para la versión móvil
+<br />
+<br />
+* Perfiles de colaboradores
+<br />
+<br />
+* Sección Xibalbak
+<br />
+<br />
+* Índice de Noticias
+</p>
+<!-- Load -->
+<script async="" src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/assets/css/modal.css" />
+
+<script async="" src="/assets/js/modal.js" crossorigin="anonymous"></script>]]></content><author><name></name></author><category term="website" /><summary type="html"><![CDATA[En este sitio web podrás encontrar todo lo relacionado a diferentes proyectos creados por mí o en los que participo así como recomendaciones, la página actualmente se encuentra en construcción, sin embargo se realizaron algunas actualizaciones importantes como la creación de esta sección de noticias, aquí estarás informado sobre noticias importantes relacionadas con los diferentes proyectos y la propia página. Banner Principal]]></summary></entry></feed>

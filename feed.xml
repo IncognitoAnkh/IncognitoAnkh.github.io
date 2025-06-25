@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://incognitoankh.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://incognitoankh.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-06-25T03:33:47+00:00</updated><id>https://incognitoankh.com/feed.xml</id><title type="html">IncognitoAnkh</title><subtitle>Official website for projects related to IncognitoAnkh, such as Pixel Art Commissions, Streaming, and Minecraft servers. Property of Incognito Inc.</subtitle><entry><title type="html">Mobile and Language Update!</title><link href="https://incognitoankh.com/2022/10/16/mobile_update" rel="alternate" type="text/html" title="Mobile and Language Update!" /><published>2022-10-16T06:31:00+00:00</published><updated>2022-10-16T06:31:00+00:00</updated><id>https://incognitoankh.com/2022/10/16/mobile_update</id><content type="html" xml:base="https://incognitoankh.com/2022/10/16/mobile_update"><![CDATA[<!-- Content -->
+<p class="justify">
+Finally, after a long period of planning, a series of useful and essential functionalities have finally been implemented in incognitoankh.com, among them 2 very remarkable ones, the support for mobile devices and the multi-language support.
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="/assets/images/icons/monolith.png" />  
+    <p>Main Banner</p>  
+</div>
+
+<!--more-->
+<p class="justify"> 
+<span class="highlight">Mobile Support:</span>
+<br />
+<br />
+* Finally, the full support for mobiles was finished, responsiveness bugs were fixed and the drop-down menu was implemented, which allows to navigate more easily using devices in portrait mode.
+<br />
+<br />
+<span class="highlight">Multi Language Support:</span>
+<br />
+<br />
+* Multilanguage support was implemented, which allows you to switch between English and Spanish by pressing the corresponding buttons in the footer, once the language is selected, all the links on the page will redirect you to their versions in the chosen language.
+<br />
+Note: There are sections of the page that have not yet been translated, however the translation will be completed little by little.
+</p>]]></content><author><name></name></author><category term="website" /><summary type="html"><![CDATA[Finally, after a long period of planning, a series of useful and essential functionalities have finally been implemented in incognitoankh.com, among them 2 very remarkable ones, the support for mobile devices and the multi-language support. Main Banner]]></summary></entry><entry><title type="html">Welcome to IncognitoAnkh.com!</title><link href="https://incognitoankh.com/2022/06/25/welcome" rel="alternate" type="text/html" title="Welcome to IncognitoAnkh.com!" /><published>2022-06-25T01:10:00+00:00</published><updated>2022-06-25T01:10:00+00:00</updated><id>https://incognitoankh.com/2022/06/25/welcome</id><content type="html" xml:base="https://incognitoankh.com/2022/06/25/welcome"><![CDATA[<!-- Content -->
+<p class="justify">
+On this website you can find everything related to different projects created by me or in which I participate as well as recommendations, the page is currently under construction, however some important updates were made such as the creation of this news section, here you will be informed about important news related to the different projects and the page itself.
+</p>
+
+<div class="card flex_default gallery_item">
+    <img src="/assets/images/banners/main.png" />  
+    <p>Main Banner</p>  
+</div>
+
+<!--more-->
+<p class="justify"> 
+<span class="highlight">Updates:</span>
+<br />
+<br />
+* Links to social networks have been combined in a single widget so that they do not take up too much space.
+<br />
+<br />
+* Added a quick look at my tweets.
+<br />
+<br />
+* A section dedicated to recent blog entries (News) was added to the main screen, it will show a brief description of each one, clicking on their titles will take you to the entry in question to see it in its whole.
+<br />
+<br />
+* Added links dedicated to each member, collaborator and recommended in the IncognitoRadio section.
+<br />
+<br />
+<br />
+<span class="highlight">Future Plans:</span>
+<br />
+<br />
+* Add multilanguage support, this in order to avoid having pages with different languages and maintain a certain uniformity.
+<br />
+<br />
+* Navbar Menu for mobile version
+<br />
+<br />
+* Collaborator Profiles
+<br />
+<br />
+* Xibalbak Section
+<br />
+<br />
+* Index of News
+</p>
+<!-- Load -->
+<script async="" src="https://kit.fontawesome.com/6cc05e1e8e.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/assets/css/modal.css" />
+
+<script async="" src="/assets/js/modal.js" crossorigin="anonymous"></script>]]></content><author><name></name></author><category term="website" /><summary type="html"><![CDATA[On this website you can find everything related to different projects created by me or in which I participate as well as recommendations, the page is currently under construction, however some important updates were made such as the creation of this news section, here you will be informed about important news related to the different projects and the page itself. Main Banner]]></summary></entry></feed>
